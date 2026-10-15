@@ -258,15 +258,16 @@ def render_html(postings: list[dict], today: dt.date) -> str:
           background: #0d1117; color: #e6edf3; }}
   h1 {{ font-size: 1.4rem; margin-bottom: 4px; }}
   .meta {{ color: #8b949e; font-size: 0.85rem; margin-bottom: 16px; }}
-  .columns {{ display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }}
-  .col h2 {{ font-size: 1.05rem; border-bottom: 1px solid #30363d; padding-bottom: 6px; }}
-  table {{ border-collapse: collapse; width: 100%; font-size: 0.85rem; }}
+  table {{ border-collapse: collapse; width: 100%; font-size: 0.9rem; }}
   th, td {{ text-align: left; padding: 8px 10px; border-bottom: 1px solid #30363d; vertical-align: top; }}
   th {{ position: sticky; top: 0; background: #161b22; font-size: 0.8rem; }}
   tr.urgent td:first-child {{ color: #ff7b72; font-weight: 600; }}
   tr.soon td:first-child {{ color: #e3b341; font-weight: 600; }}
   tr.rolling td:first-child {{ color: #8b949e; }}
   tr.normal td:first-child {{ color: #e6edf3; }}
+  tr.is-applied {{ background: rgba(63, 185, 80, 0.12); }}
+  tr.is-applied td:first-child {{ color: #3fb950 !important; }}
+  .check {{ color: #3fb950; margin-right: 4px; }}
   a {{ color: #58a6ff; text-decoration: none; }}
   a:hover {{ text-decoration: underline; }}
   .kw {{ color: #8b949e; font-size: 0.75rem; }}
@@ -274,11 +275,7 @@ def render_html(postings: list[dict], today: dt.date) -> str:
     background: #21262d; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px;
     padding: 3px 6px; font-size: 0.8rem;
   }}
-  .empty {{ color: #8b949e; font-style: italic; padding: 12px 0; }}
-  @media (max-width: 900px) {{
-    .columns {{ display: block; }}
-    .col {{ margin-bottom: 28px; }}
-  }}
+  tr.is-applied select.applied-toggle {{ border-color: #3fb950; }}
   @media (max-width: 700px) {{
     table, thead, tbody, th, td, tr {{ display: block; }}
     thead {{ display: none; }}
@@ -293,24 +290,10 @@ def render_html(postings: list[dict], today: dt.date) -> str:
   <p class="meta">Updated {today.isoformat()} &middot; {len(postings)} tracked postings &middot;
      AI / Cloud / DevOps / Platform / Cybersecurity, English-friendly, full-time, Norway</p>
 
-  <div class="columns">
-    <div class="col">
-      <h2>Open <span id="open-count"></span></h2>
-      <table>
-        <thead><tr><th>Deadline</th><th>Title</th><th>Company</th><th>Status</th></tr></thead>
-        <tbody id="open-body"></tbody>
-      </table>
-      <p class="empty" id="open-empty" style="display:none">Nothing here.</p>
-    </div>
-    <div class="col">
-      <h2>Applied <span id="applied-count"></span></h2>
-      <table>
-        <thead><tr><th>Deadline</th><th>Title</th><th>Company</th><th>Status</th></tr></thead>
-        <tbody id="applied-body"></tbody>
-      </table>
-      <p class="empty" id="applied-empty" style="display:none">Nothing marked as applied yet.</p>
-    </div>
-  </div>
+  <table>
+    <thead><tr><th>Deadline</th><th>Title</th><th>Company</th><th>Status</th></tr></thead>
+    <tbody id="postings-body"></tbody>
+  </table>
 
 <script>
 const POSTINGS = {postings_json};
@@ -327,10 +310,11 @@ function saveApplied(state) {{
 
 function rowHtml(p, isApplied) {{
   const kwLine = p.matched ? `<div class="kw">${{p.matched}}</div>` : "";
+  const check = isApplied ? `<span class="check">&#10003;</span>` : "";
   return `
-    <tr class="${{p.urgency}}" data-url="${{p.url}}">
+    <tr class="${{p.urgency}}${{isApplied ? " is-applied" : ""}}" data-url="${{p.url}}">
       <td>${{p.dl_text}}</td>
-      <td><a href="${{p.url}}" target="_blank" rel="noopener">${{p.title}}</a>${{kwLine}}</td>
+      <td>${{check}}<a href="${{p.url}}" target="_blank" rel="noopener">${{p.title}}</a>${{kwLine}}</td>
       <td>${{p.company}}<br>${{p.location}}</td>
       <td>
         <select class="applied-toggle" data-url="${{p.url}}">
@@ -344,17 +328,9 @@ function rowHtml(p, isApplied) {{
 function render() {{
   const applied = loadApplied();
   const sorted = [...POSTINGS].sort((a, b) => a.sort_key - b.sort_key);
-  const openRows = [], appliedRows = [];
-  for (const p of sorted) {{
-    (applied[p.url] ? appliedRows : openRows).push(p);
-  }}
 
-  document.getElementById("open-body").innerHTML = openRows.map(p => rowHtml(p, false)).join("");
-  document.getElementById("applied-body").innerHTML = appliedRows.map(p => rowHtml(p, true)).join("");
-  document.getElementById("open-count").textContent = `(${{openRows.length}})`;
-  document.getElementById("applied-count").textContent = `(${{appliedRows.length}})`;
-  document.getElementById("open-empty").style.display = openRows.length ? "none" : "block";
-  document.getElementById("applied-empty").style.display = appliedRows.length ? "none" : "block";
+  document.getElementById("postings-body").innerHTML =
+    sorted.map(p => rowHtml(p, !!applied[p.url])).join("");
 
   document.querySelectorAll("select.applied-toggle").forEach(sel => {{
     sel.addEventListener("change", () => {{
