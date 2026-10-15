@@ -224,32 +224,29 @@ def posting_to_dict(p: Posting) -> dict:
 
 
 def render_html(postings: list[dict], today: dt.date) -> str:
-    def row(p):
+    # Precompute display fields server-side; the client just partitions by
+    # applied/not-applied (read from localStorage) and renders.
+    enriched = []
+    for p in postings:
         if p["deadline"]:
             dl_date = dt.date.fromisoformat(p["deadline"])
             days_left = (dl_date - today).days
-            if days_left <= 3:
-                urgency = "urgent"
+            if days_left < 0:
+                urgency, dl_text = "rolling", p["deadline"] + " (closed)"
+            elif days_left <= 3:
+                urgency, dl_text = "urgent", p["deadline"] + f" ({days_left}d)"
             elif days_left <= 7:
-                urgency = "soon"
+                urgency, dl_text = "soon", p["deadline"] + f" ({days_left}d)"
             else:
-                urgency = "normal"
-            dl_text = p["deadline"] + (f" ({days_left}d)" if days_left >= 0 else " (closed)")
+                urgency, dl_text = "normal", p["deadline"] + f" ({days_left}d)"
+            sort_key = dl_date.toordinal()
         else:
-            urgency = "rolling"
-            dl_text = "Rolling / unknown"
-        kws = ", ".join(p["matched_keywords"])
-        return f"""
-        <tr class="{urgency}">
-          <td>{dl_text}</td>
-          <td><a href="{p['url']}" target="_blank" rel="noopener">{p['title']}</a></td>
-          <td>{p['company']}</td>
-          <td>{p['location']}</td>
-          <td>{p['source']}</td>
-          <td class="kw">{kws}</td>
-        </tr>"""
+            urgency, dl_text, sort_key = "rolling", "Rolling / unknown", 99999999
+        enriched.append({**p, "urgency": urgency, "dl_text": dl_text, "sort_key": sort_key,
+                          "matched": ", ".join(p["matched_keywords"])})
 
-    rows = "\n".join(row(p) for p in postings)
+    postings_json = json.dumps(enriched, ensure_ascii=False)
+
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -259,38 +256,119 @@ def render_html(postings: list[dict], today: dt.date) -> str:
 <style>
   body {{ font-family: -apple-system, Segoe UI, Arial, sans-serif; margin: 0; padding: 16px;
           background: #0d1117; color: #e6edf3; }}
-  h1 {{ font-size: 1.4rem; }}
+  h1 {{ font-size: 1.4rem; margin-bottom: 4px; }}
   .meta {{ color: #8b949e; font-size: 0.85rem; margin-bottom: 16px; }}
-  table {{ border-collapse: collapse; width: 100%; font-size: 0.9rem; }}
-  th, td {{ text-align: left; padding: 8px 10px; border-bottom: 1px solid #30363d; }}
-  th {{ position: sticky; top: 0; background: #161b22; }}
+  .columns {{ display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }}
+  .col h2 {{ font-size: 1.05rem; border-bottom: 1px solid #30363d; padding-bottom: 6px; }}
+  table {{ border-collapse: collapse; width: 100%; font-size: 0.85rem; }}
+  th, td {{ text-align: left; padding: 8px 10px; border-bottom: 1px solid #30363d; vertical-align: top; }}
+  th {{ position: sticky; top: 0; background: #161b22; font-size: 0.8rem; }}
   tr.urgent td:first-child {{ color: #ff7b72; font-weight: 600; }}
   tr.soon td:first-child {{ color: #e3b341; font-weight: 600; }}
   tr.rolling td:first-child {{ color: #8b949e; }}
+  tr.normal td:first-child {{ color: #e6edf3; }}
   a {{ color: #58a6ff; text-decoration: none; }}
   a:hover {{ text-decoration: underline; }}
-  .kw {{ color: #8b949e; font-size: 0.8rem; }}
+  .kw {{ color: #8b949e; font-size: 0.75rem; }}
+  select.applied-toggle {{
+    background: #21262d; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px;
+    padding: 3px 6px; font-size: 0.8rem;
+  }}
+  .empty {{ color: #8b949e; font-style: italic; padding: 12px 0; }}
+  @media (max-width: 900px) {{
+    .columns {{ display: block; }}
+    .col {{ margin-bottom: 28px; }}
+  }}
   @media (max-width: 700px) {{
     table, thead, tbody, th, td, tr {{ display: block; }}
     thead {{ display: none; }}
-    tr {{ margin-bottom: 12px; border-bottom: 2px solid #30363d; }}
-    td {{ border: none; padding: 4px 0; }}
+    tr {{ margin-bottom: 12px; border-bottom: 2px solid #30363d; padding-bottom: 8px; }}
+    td {{ border: none; padding: 3px 0; }}
     td:first-child {{ font-weight: 700; }}
   }}
 </style>
 </head>
 <body>
   <h1>Job Search Monitor</h1>
-  <p class="meta">Updated {today.isoformat()} &middot; {len(postings)} open postings &middot;
+  <p class="meta">Updated {today.isoformat()} &middot; {len(postings)} tracked postings &middot;
      AI / Cloud / DevOps / Platform / Cybersecurity, English-friendly, full-time, Norway</p>
-  <table>
-    <thead>
-      <tr><th>Deadline</th><th>Title</th><th>Company</th><th>Location</th><th>Source</th><th>Matched</th></tr>
-    </thead>
-    <tbody>
-      {rows}
-    </tbody>
-  </table>
+
+  <div class="columns">
+    <div class="col">
+      <h2>Open <span id="open-count"></span></h2>
+      <table>
+        <thead><tr><th>Deadline</th><th>Title</th><th>Company</th><th>Status</th></tr></thead>
+        <tbody id="open-body"></tbody>
+      </table>
+      <p class="empty" id="open-empty" style="display:none">Nothing here.</p>
+    </div>
+    <div class="col">
+      <h2>Applied <span id="applied-count"></span></h2>
+      <table>
+        <thead><tr><th>Deadline</th><th>Title</th><th>Company</th><th>Status</th></tr></thead>
+        <tbody id="applied-body"></tbody>
+      </table>
+      <p class="empty" id="applied-empty" style="display:none">Nothing marked as applied yet.</p>
+    </div>
+  </div>
+
+<script>
+const POSTINGS = {postings_json};
+const STORAGE_KEY = "jobMonitorApplied";
+
+function loadApplied() {{
+  try {{
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{{}}");
+  }} catch (e) {{ return {{}}; }}
+}}
+function saveApplied(state) {{
+  try {{ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }} catch (e) {{}}
+}}
+
+function rowHtml(p, isApplied) {{
+  const kwLine = p.matched ? `<div class="kw">${{p.matched}}</div>` : "";
+  return `
+    <tr class="${{p.urgency}}" data-url="${{p.url}}">
+      <td>${{p.dl_text}}</td>
+      <td><a href="${{p.url}}" target="_blank" rel="noopener">${{p.title}}</a>${{kwLine}}</td>
+      <td>${{p.company}}<br>${{p.location}}</td>
+      <td>
+        <select class="applied-toggle" data-url="${{p.url}}">
+          <option value="no" ${{isApplied ? "" : "selected"}}>Not applied</option>
+          <option value="yes" ${{isApplied ? "selected" : ""}}>Applied</option>
+        </select>
+      </td>
+    </tr>`;
+}}
+
+function render() {{
+  const applied = loadApplied();
+  const sorted = [...POSTINGS].sort((a, b) => a.sort_key - b.sort_key);
+  const openRows = [], appliedRows = [];
+  for (const p of sorted) {{
+    (applied[p.url] ? appliedRows : openRows).push(p);
+  }}
+
+  document.getElementById("open-body").innerHTML = openRows.map(p => rowHtml(p, false)).join("");
+  document.getElementById("applied-body").innerHTML = appliedRows.map(p => rowHtml(p, true)).join("");
+  document.getElementById("open-count").textContent = `(${{openRows.length}})`;
+  document.getElementById("applied-count").textContent = `(${{appliedRows.length}})`;
+  document.getElementById("open-empty").style.display = openRows.length ? "none" : "block";
+  document.getElementById("applied-empty").style.display = appliedRows.length ? "none" : "block";
+
+  document.querySelectorAll("select.applied-toggle").forEach(sel => {{
+    sel.addEventListener("change", () => {{
+      const state = loadApplied();
+      if (sel.value === "yes") {{ state[sel.dataset.url] = true; }}
+      else {{ delete state[sel.dataset.url]; }}
+      saveApplied(state);
+      render();
+    }});
+  }});
+}}
+
+render();
+</script>
 </body>
 </html>"""
 
@@ -349,10 +427,14 @@ def main():
     existing = load_existing()
     merged: dict[str, Posting] = {}
 
+    EXPIRY_GRACE_DAYS = 30  # keep closed postings around a while - you may have
+                             # marked one "Applied" in the browser (localStorage),
+                             # which this script has no way to see, so don't drop
+                             # it the instant its deadline passes.
     for url, old in existing.items():
         old_deadline = dt.date.fromisoformat(old["deadline"]) if old["deadline"] else None
-        if old_deadline and old_deadline < today:
-            continue  # expired, drop
+        if old_deadline and old_deadline < today - dt.timedelta(days=EXPIRY_GRACE_DAYS):
+            continue  # expired well past the grace window, drop
         merged[url] = Posting(
             source=old["source"], title=old["title"], company=old["company"],
             location=old["location"], url=url, deadline=old_deadline,
