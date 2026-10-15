@@ -34,3 +34,4 @@ jobs:
           git add data/postings.json docs/index.html
           git diff --cached --quiet && echo "No changes" || git commit -m "Daily update: $(date -u +%Y-%m-%d)"
           git push
+# trigger reindex
