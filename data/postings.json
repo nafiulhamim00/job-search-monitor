@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:33:55.606508+00:00",
+  "generated_at": "2026-10-15T19:51:52.139642+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -8,7 +8,7 @@
       "location": "Ålesund",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/81e68251-8330-47f4-b2b8-c5b1f30371f5",
       "deadline": "2026-10-15",
-      "full_time": true,
+      "job_type": "Temporary",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"
@@ -22,7 +22,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/475980791",
       "deadline": "2026-10-16",
-      "full_time": true,
+      "job_type": "Graduate Program",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -37,7 +37,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/475885422",
       "deadline": "2026-10-16",
-      "full_time": true,
+      "job_type": "Internship",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"
@@ -51,7 +51,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/74c9ad00-727c-4756-92b8-f6d5b47cd092",
       "deadline": "2026-10-16",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -65,7 +65,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/477268992",
       "deadline": "2026-10-18",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -80,7 +80,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/477190790",
       "deadline": "2026-10-18",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -96,7 +96,7 @@
       "location": "Lysaker",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8f74646e-7675-466b-9b67-75bcba39cd7d",
       "deadline": "2026-10-18",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -111,7 +111,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/477279633",
       "deadline": "2026-10-19",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -128,7 +128,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/477280412",
       "deadline": "2026-10-19",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -143,7 +143,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d5f408e1-4380-40d1-ad7e-40a6bc8d3d97",
       "deadline": "2026-10-19",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -157,7 +157,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/eed42142-78d5-4964-9fd1-44230010e2e4",
       "deadline": "2026-10-19",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -171,7 +171,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/538da835-0977-4231-b17d-771df9de6c9d",
       "deadline": "2026-10-20",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -186,7 +186,7 @@
       "location": "Tranby",
       "url": "https://www.finn.no/job/ad/476035879",
       "deadline": "2026-10-22",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "DevOps Engineer"
@@ -200,7 +200,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/478009702",
       "deadline": "2026-10-25",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -216,7 +216,7 @@
       "location": "Stavanger",
       "url": "https://www.finn.no/job/ad/477705650",
       "deadline": "2026-10-25",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -232,7 +232,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/477705601",
       "deadline": "2026-10-25",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Kubernetes"
@@ -246,7 +246,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
       "deadline": "2026-10-25",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -261,7 +261,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/478005904",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -277,7 +277,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/478005360",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -294,7 +294,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/478004142",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -309,7 +309,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/478006279",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -323,7 +323,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/478006753",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -337,7 +337,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/478002572",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -352,7 +352,7 @@
       "location": "Lysaker",
       "url": "https://www.finn.no/job/ad/478004633",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -368,7 +368,7 @@
       "location": "Lysaker",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/11261983-e2c2-420f-a57b-a782f88aca08",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -382,7 +382,7 @@
       "location": "Stavanger",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8e5c59df-dcf1-4329-9207-84969e5eee9e",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -396,7 +396,7 @@
       "location": "Lysaker",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b820de97-0b89-49fd-80df-ca2c7cc1e134",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -410,7 +410,7 @@
       "location": "Lysaker",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b6ccbe79-b42b-4286-aa76-63d2da8c274d",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -424,7 +424,7 @@
       "location": "Fornebu",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d9d87d47-3e75-4c4a-adc4-822c52bb7908",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "DevOps Engineer",
@@ -440,7 +440,7 @@
       "location": "Lysaker",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5a07b911-0f45-4599-9d09-311581efe56f",
       "deadline": "2026-10-26",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Platform Engineer",
@@ -455,7 +455,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/901a5bb9-cfae-4ddd-8d43-e8b3d5a9a6fd",
       "deadline": "2026-10-28",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Kubernetes"
@@ -469,7 +469,7 @@
       "location": "Kristiansand S",
       "url": "https://www.finn.no/job/ad/478573574",
       "deadline": "2026-10-29",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer"
@@ -483,7 +483,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/477720621",
       "deadline": "2026-10-30",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -498,7 +498,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8eeb22f7-316a-4e08-9a5b-9c97a6f70a1e",
       "deadline": "2026-10-30",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -512,7 +512,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/478591707",
       "deadline": "2026-10-31",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -529,7 +529,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/478111893",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -544,7 +544,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/478693710",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -560,7 +560,7 @@
       "location": "Trondheim",
       "url": "https://www.finn.no/job/ad/478631391",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "DevOps Engineer"
@@ -574,7 +574,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/478311303",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Platform Engineer"
@@ -588,7 +588,7 @@
       "location": "Horten",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/254b0279-d8c1-4594-b0d9-fb3bcb6a5e48",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -602,7 +602,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ce171c60-2a0e-4662-9337-51e3aa310c85",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -616,7 +616,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dc4419d8-0afe-4f0a-a208-0e3bdc069c2a",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -630,7 +630,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/791c907e-fe29-4f3c-94b4-aee94d7a9827",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer"
@@ -644,7 +644,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/bdd1d358-5e3f-49be-95c1-86e107bf4def",
       "deadline": "2026-11-01",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"
@@ -658,7 +658,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cb1e5b64-2f5d-4073-952f-a20a7bda0f1b",
       "deadline": "2026-11-02",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -673,7 +673,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/90d66b66-2c7a-49d2-88fd-3403996b20ed",
       "deadline": "2026-11-08",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -690,7 +690,7 @@
       "location": "Danmark",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c68fcf30-26fc-4bde-ab69-04388edef9f9",
       "deadline": "2026-11-13",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -704,7 +704,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f4cb6a22-178f-4cb1-8a24-986405bce849",
       "deadline": "2026-11-27",
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Kubernetes"
@@ -718,7 +718,7 @@
       "location": "Fornebu",
       "url": "https://www.finn.no/job/ad/478077416",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -734,7 +734,7 @@
       "location": "Trondheim",
       "url": "https://www.finn.no/job/ad/477574073",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -750,7 +750,7 @@
       "location": "Fornebu",
       "url": "https://www.finn.no/job/ad/476568313",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -767,7 +767,7 @@
       "location": "Stavanger",
       "url": "https://www.finn.no/job/ad/477784568",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -781,7 +781,7 @@
       "location": "Join AECOM (earlier Consigli) as an AI Engineer in Oslo",
       "url": "https://www.finn.no/job/ad/478181364",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -797,7 +797,7 @@
       "location": "Narvik",
       "url": "https://www.finn.no/job/ad/475855255",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -813,7 +813,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/478247621",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -829,7 +829,7 @@
       "location": "Glomfjord",
       "url": "https://www.finn.no/job/ad/478311623",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -843,7 +843,7 @@
       "location": "Fornebu",
       "url": "https://www.finn.no/job/ad/476118256",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -860,7 +860,7 @@
       "location": "Narvik",
       "url": "https://www.finn.no/job/ad/477482936",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -876,7 +876,7 @@
       "location": "Fornebu",
       "url": "https://www.finn.no/job/ad/476111221",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -890,7 +890,7 @@
       "location": "Glomfjord",
       "url": "https://www.finn.no/job/ad/475853785",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -906,7 +906,7 @@
       "location": "Narvik",
       "url": "https://www.finn.no/job/ad/475855574",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -921,7 +921,7 @@
       "location": "Bergen",
       "url": "https://www.finn.no/job/ad/477015367",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -938,7 +938,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/477053971",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "DevOps Engineer"
@@ -952,7 +952,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/477635030",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Temporary",
       "english_ok": true,
       "matched_keywords": [
         "DevOps Engineer"
@@ -966,7 +966,7 @@
       "location": "Egersund",
       "url": "https://www.finn.no/job/ad/477150234",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"
@@ -980,7 +980,7 @@
       "location": "Stavanger",
       "url": "https://www.finn.no/job/ad/477144702",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"
@@ -994,7 +994,7 @@
       "location": "Fornebu",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/97d2fe4a-b121-4589-af9d-9e9db9f4a066",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -1009,7 +1009,7 @@
       "location": "Fornebu",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c55bd32b-2a57-45d4-b8f5-a05ac11e1b5a",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -1025,7 +1025,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4a87eaaa-3cfd-46de-b051-da67b0feb2f1",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -1041,7 +1041,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3279ede2-da7b-4190-ad30-23894bd1134c",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -1055,7 +1055,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1e9f3398-2804-46df-bc03-eaeb20a2212b",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
@@ -1069,7 +1069,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/24e8b5b8-b70f-4562-81e7-e5553a48cd2c",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
@@ -1085,7 +1085,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/861be9b3-b98a-483f-a3d3-e80e8f54c298",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -1100,7 +1100,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5d27f1aa-26e7-4ab5-9dc3-90999d898cf9",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -1117,7 +1117,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a6e5c6f1-4af2-4fe1-94da-ef95377e1c27",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -1132,7 +1132,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/2a940fe0-ee0a-4bd7-8733-0865104c8b53",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -1147,7 +1147,7 @@
       "location": "Sandnes",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/50cdae15-675d-41cb-8ad9-2161d60ff92f",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
@@ -1162,7 +1162,7 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/15806984-237e-4d88-b2fd-31ed9ae9e1eb",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "DevOps Engineer"
@@ -1176,7 +1176,7 @@
       "location": "Sandnes",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b5cdb47e-92bb-4704-b5e1-79f260835639",
       "deadline": null,
-      "full_time": true,
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"

@@ -1,7 +1,8 @@
 """
 Job search monitor: scrapes FINN.no and arbeidsplassen.nav.no for postings
-matching Nafiul's profile, filters to relevant/English-friendly/full-time
-roles, merges with previously-seen postings (data/postings.json), drops
+matching Nafiul's profile, filters to relevant/English-friendly roles (any
+employment type - full-time, internship, graduate program, part-time),
+merges with previously-seen postings (data/postings.json), drops
 expired ones, and renders docs/index.html for GitHub Pages.
 
 Run daily via .github/workflows/daily-job-search.yml.
@@ -56,7 +57,7 @@ class Posting:
     location: str
     url: str
     deadline: "dt.date | None" = None
-    full_time: bool = True
+    job_type: str = "Full-time"
     english_ok: bool = True
     matched_keywords: set = field(default_factory=set)
     first_seen: "dt.date | None" = None
@@ -65,6 +66,24 @@ class Posting:
 def title_is_relevant(title: str) -> bool:
     t = title.lower()
     return any(term in t for term in POSITIVE_TITLE_TERMS)
+
+
+INTERN_TITLE_TERMS = ["intern", "summer student", "sommerstudent", "sommerjobb",
+                      "trainee", "traineeship"]
+GRADUATE_TITLE_TERMS = ["graduate"]
+
+
+def classify_job_type(title: str, raw_hint: str) -> str:
+    """raw_hint is a coarse signal from the site itself (e.g. 'Full-time',
+    'Part-time'); the title is checked for more specific categories (a
+    'Graduate 2027' or 'Summer Internship' posting is still technically
+    full-time employment, but that's not the useful label for it here)."""
+    t = title.lower()
+    if any(term in t for term in INTERN_TITLE_TERMS):
+        return "Internship"
+    if any(term in t for term in GRADUATE_TITLE_TERMS):
+        return "Graduate Program"
+    return raw_hint
 
 
 def parse_nav_deadline(text: str, today: dt.date) -> "dt.date | None":
@@ -146,7 +165,16 @@ def enrich_finn(posting: Posting) -> None:
         emp = payload.get("employmentType") or []
         if isinstance(emp, str):
             emp = [emp]
-        posting.full_time = any("FULL" in e.upper() for e in emp) if emp else True
+        emp_upper = {e.upper() for e in emp}
+        if "INTERN" in emp_upper:
+            raw_hint = "Internship"
+        elif "PART_TIME" in emp_upper:
+            raw_hint = "Part-time"
+        elif "TEMPORARY" in emp_upper:
+            raw_hint = "Temporary"
+        else:
+            raw_hint = "Full-time"
+        posting.job_type = classify_job_type(posting.title, raw_hint)
         org = payload.get("hiringOrganization") or {}
         if org.get("name"):
             posting.company = org["name"]
@@ -194,18 +222,31 @@ def search_nav(keyword: str, today: dt.date) -> list[Posting]:
     return results
 
 
-def enrich_nav_language(posting: Posting) -> None:
+def enrich_nav_details(posting: Posting) -> None:
     try:
         r = requests.get(posting.url, headers=HEADERS, timeout=20)
         r.raise_for_status()
     except requests.RequestException:
         return
     soup = BeautifulSoup(r.text, "html.parser")
-    dt_tag = soup.find("dt", string=lambda s: s and "Arbeidsspr" in s)
-    if dt_tag:
-        dd = dt_tag.find_next_sibling("dd")
+
+    lang_dt = soup.find("dt", string=lambda s: s and "Arbeidsspr" in s)
+    if lang_dt:
+        dd = lang_dt.find_next_sibling("dd")
         if dd:
             posting.english_ok = "engelsk" in dd.get_text(strip=True).lower()
+
+    type_dt = soup.find("dt", string=lambda s: s and "ansettelse" in s.lower())
+    raw_hint = "Full-time"
+    if type_dt:
+        dd = type_dt.find_next_sibling("dd")
+        if dd:
+            text = dd.get_text(strip=True).lower()
+            if "deltid" in text:
+                raw_hint = "Part-time"
+            elif "engasjement" in text or "vikariat" in text or "midlertidig" in text:
+                raw_hint = "Temporary"
+    posting.job_type = classify_job_type(posting.title, raw_hint)
 
 
 def load_existing() -> dict[str, dict]:
@@ -271,6 +312,7 @@ def render_html(postings: list[dict], today: dt.date) -> str:
   a {{ color: #58a6ff; text-decoration: none; }}
   a:hover {{ text-decoration: underline; }}
   .kw {{ color: #8b949e; font-size: 0.75rem; }}
+  .type-tag {{ font-size: 0.8rem; white-space: nowrap; }}
   select.applied-toggle {{
     background: #21262d; color: #e6edf3; border: 1px solid #30363d; border-radius: 6px;
     padding: 3px 6px; font-size: 0.8rem;
@@ -288,10 +330,10 @@ def render_html(postings: list[dict], today: dt.date) -> str:
 <body>
   <h1>Job Search Monitor</h1>
   <p class="meta">Updated {today.isoformat()} &middot; {len(postings)} tracked postings &middot;
-     AI / Cloud / DevOps / Platform / Cybersecurity, English-friendly, full-time, Norway</p>
+     AI / Cloud / DevOps / Platform / Cybersecurity, English-friendly, Norway</p>
 
   <table>
-    <thead><tr><th>Deadline</th><th>Title</th><th>Company</th><th>Status</th></tr></thead>
+    <thead><tr><th>Deadline</th><th>Title</th><th>Company</th><th>Type</th><th>Status</th></tr></thead>
     <tbody id="postings-body"></tbody>
   </table>
 
@@ -316,6 +358,7 @@ function rowHtml(p, isApplied) {{
       <td>${{p.dl_text}}</td>
       <td>${{check}}<a href="${{p.url}}" target="_blank" rel="noopener">${{p.title}}</a>${{kwLine}}</td>
       <td>${{p.company}}<br>${{p.location}}</td>
+      <td class="type-tag">${{p.job_type}}</td>
       <td>
         <select class="applied-toggle" data-url="${{p.url}}">
           <option value="no" ${{isApplied ? "" : "selected"}}>Not applied</option>
@@ -384,20 +427,20 @@ def main():
         time.sleep(1)
 
     print(f"Total unique candidates: {len(scraped)}")
-    print("Enriching FINN (deadline + full-time)...")
+    print("Enriching FINN (deadline + employment type)...")
     for p in scraped.values():
         if p.source == "FINN":
             enrich_finn(p)
             time.sleep(0.5)
 
-    print("Checking NAV language...")
+    print("Checking NAV language + employment type...")
     for p in scraped.values():
         if p.source == "NAV":
-            enrich_nav_language(p)
+            enrich_nav_details(p)
             time.sleep(0.5)
 
-    scraped = {u: p for u, p in scraped.items() if p.full_time and p.english_ok}
-    print(f"After full-time + English filter: {len(scraped)}")
+    scraped = {u: p for u, p in scraped.items() if p.english_ok}
+    print(f"After English filter: {len(scraped)}")
 
     # --- merge with existing persisted state ---
     existing = load_existing()
@@ -414,6 +457,7 @@ def main():
         merged[url] = Posting(
             source=old["source"], title=old["title"], company=old["company"],
             location=old["location"], url=url, deadline=old_deadline,
+            job_type=old.get("job_type", "Full-time"),
             matched_keywords=set(old["matched_keywords"]),
             first_seen=dt.date.fromisoformat(old["first_seen"]) if old["first_seen"] else today,
         )
@@ -424,6 +468,7 @@ def main():
             merged[url].deadline = p.deadline
             merged[url].company = p.company or merged[url].company
             merged[url].location = p.location or merged[url].location
+            merged[url].job_type = p.job_type
             merged[url].matched_keywords |= p.matched_keywords
         else:
             p.first_seen = today
