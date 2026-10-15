@@ -68,8 +68,13 @@ def title_is_relevant(title: str) -> bool:
     return any(term in t for term in POSITIVE_TITLE_TERMS)
 
 
-INTERN_TITLE_TERMS = ["intern", "summer student", "sommerstudent", "sommerjobb",
-                      "trainee", "traineeship"]
+INTERN_TITLE_TERMS = ["intern", "summer student", "sommerstudent", "sommerjobb"]
+# NOTE: deliberately excludes "trainee" - at least DNV's "Research Trainee"
+# programmes are confirmed Full-time/Permanent (a 2-year rotational
+# programme), not a short-term internship. Tagged as its own category
+# instead so that distinction isn't lost, but it isn't lumped in with
+# actual internships either.
+TRAINEE_TITLE_TERMS = ["trainee", "traineeship"]
 GRADUATE_TITLE_TERMS = ["graduate"]
 
 
@@ -81,6 +86,8 @@ def classify_job_type(title: str, raw_hint: str) -> str:
     t = title.lower()
     if any(term in t for term in INTERN_TITLE_TERMS):
         return "Internship"
+    if any(term in t for term in TRAINEE_TITLE_TERMS):
+        return "Trainee Program"
     if any(term in t for term in GRADUATE_TITLE_TERMS):
         return "Graduate Program"
     return raw_hint

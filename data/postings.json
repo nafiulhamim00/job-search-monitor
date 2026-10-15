@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:51:52.139642+00:00",
+  "generated_at": "2026-10-15T20:09:34.849314+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -37,7 +37,7 @@
       "location": "Oslo",
       "url": "https://www.finn.no/job/ad/475885422",
       "deadline": "2026-10-16",
-      "job_type": "Internship",
+      "job_type": "Trainee Program",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"
@@ -341,7 +341,8 @@
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
-        "Cloud Engineer"
+        "Cloud Engineer",
+        "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
     },
