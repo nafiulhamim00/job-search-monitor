@@ -31,3 +31,4 @@ the way GitHub Pages would.
 ## Adjusting the search
 
 Edit `KEYWORDS` and `POSITIVE_TITLE_TERMS` in `job_monitor.py` to change what counts as relevant.
+
