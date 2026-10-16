@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T20:09:34.849314+00:00",
+  "generated_at": "2026-10-16T12:10:51.199736+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -40,6 +40,7 @@
       "job_type": "Trainee Program",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-15"
@@ -86,21 +87,6 @@
         "Cloud Engineer",
         "Cybersecurity Engineer",
         "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "System Developer with Cloud Experience Wanted",
-      "company": "NODES AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8f74646e-7675-466b-9b67-75bcba39cd7d",
-      "deadline": "2026-10-18",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer",
-        "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -189,7 +175,8 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "DevOps Engineer"
+        "DevOps Engineer",
+        "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -379,8 +366,8 @@
     {
       "source": "NAV",
       "title": "Apply AI where engineering meets industry, Aker Solutions AS, Lysaker",
-      "company": "Oslo",
-      "location": "Stavanger",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8e5c59df-dcf1-4329-9207-84969e5eee9e",
       "deadline": "2026-10-26",
       "job_type": "Full-time",
@@ -448,6 +435,20 @@
         "Terraform"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Shape how AI is used safely and responsibly at scale",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a2c64f9f-4ab0-4e21-a1fd-eefa4ab22846",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-16"
     },
     {
       "source": "NAV",
@@ -522,6 +523,24 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Site Reliability Engineer, Delivery Platforms",
+      "company": "Vend",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/35fb0851-84be-4422-a36c-ba41893d2f47",
+      "deadline": "2026-10-31",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-16"
     },
     {
       "source": "FINN",
@@ -709,6 +728,21 @@
       "english_ok": true,
       "matched_keywords": [
         "Kubernetes"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "System Developer with Cloud Experience Wanted",
+      "company": "NODES AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8f74646e-7675-466b-9b67-75bcba39cd7d",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-15"
     },
