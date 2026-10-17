@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:10:51.199736+00:00",
+  "generated_at": "2026-10-17T11:30:31.883215+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -91,6 +91,21 @@
       "first_seen": "2026-10-15"
     },
     {
+      "source": "NAV",
+      "title": "System Developer with Cloud Experience Wanted",
+      "company": "NODES AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8f74646e-7675-466b-9b67-75bcba39cd7d",
+      "deadline": "2026-10-18",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
       "source": "FINN",
       "title": "Data Engineer",
       "company": "EY",
@@ -119,34 +134,6 @@
       "matched_keywords": [
         "AI Engineer",
         "DevOps Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Data Engineer - AI \\& Data Oslo/Bergen",
-      "company": "EY",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d5f408e1-4380-40d1-ad7e-40a6bc8d3d97",
-      "deadline": "2026-10-19",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Vil du bygge AI-løsninger som skaper reell verdi?",
-      "company": "EY",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/eed42142-78d5-4964-9fd1-44230010e2e4",
-      "deadline": "2026-10-19",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -474,7 +461,8 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "Cloud Engineer"
+        "Cloud Engineer",
+        "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -733,16 +721,30 @@
     },
     {
       "source": "NAV",
-      "title": "System Developer with Cloud Experience Wanted",
-      "company": "NODES AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8f74646e-7675-466b-9b67-75bcba39cd7d",
+      "title": "Data Engineer - AI \\& Data Oslo/Bergen",
+      "company": "EY",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d5f408e1-4380-40d1-ad7e-40a6bc8d3d97",
       "deadline": null,
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "Cloud Engineer",
-        "Cybersecurity Engineer"
+        "AI Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du bygge AI-løsninger som skaper reell verdi?",
+      "company": "EY",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/eed42142-78d5-4964-9fd1-44230010e2e4",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -1217,6 +1219,48 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "FINN",
+      "title": "Supply Chain Manager / Operations Manager",
+      "company": "Muybridge",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/476311859",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-17"
+    },
+    {
+      "source": "NAV",
+      "title": "AI Talent Community | Research Scientists, Engineers & AI Specialists",
+      "company": "Kongsberg Digital",
+      "location": "Fornebu",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a7502dcc-02c0-48a8-a0fe-c86e15cd8cd9",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-17"
+    },
+    {
+      "source": "NAV",
+      "title": "Internship Data Engineer",
+      "company": "SurplusMap",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8d3aeff3-43d5-4e09-a814-4dadc4ae3a4d",
+      "deadline": null,
+      "job_type": "Internship",
+      "english_ok": true,
+      "matched_keywords": [
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-17"
     }
   ]
 }
