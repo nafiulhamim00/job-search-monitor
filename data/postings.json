@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:30:31.883215+00:00",
+  "generated_at": "2026-10-18T12:00:31.589964+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -106,6 +106,22 @@
       "first_seen": "2026-10-15"
     },
     {
+      "source": "NAV",
+      "title": "Cloud Engineer",
+      "company": "Lyse Tele AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/828fe904-b564-4f4e-bb00-ae2e97918acb",
+      "deadline": "2026-10-18",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Kubernetes"
+      ],
+      "first_seen": "2026-10-18"
+    },
+    {
       "source": "FINN",
       "title": "Data Engineer",
       "company": "EY",
@@ -139,16 +155,31 @@
     },
     {
       "source": "NAV",
-      "title": "Azure-plattformingeniører – bygg Tolletatens nye skyplattform",
-      "company": "Tolletaten",
+      "title": "Data Engineer - AI \\& Data Oslo/Bergen",
+      "company": "EY",
       "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/538da835-0977-4231-b17d-771df9de6c9d",
-      "deadline": "2026-10-20",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d5f408e1-4380-40d1-ad7e-40a6bc8d3d97",
+      "deadline": "2026-10-19",
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "Cloud Engineer",
-        "Terraform"
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du bygge AI-løsninger som skaper reell verdi?",
+      "company": "EY",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/eed42142-78d5-4964-9fd1-44230010e2e4",
+      "deadline": "2026-10-19",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -721,30 +752,16 @@
     },
     {
       "source": "NAV",
-      "title": "Data Engineer - AI \\& Data Oslo/Bergen",
-      "company": "EY",
+      "title": "Azure-plattformingeniører – bygg Tolletatens nye skyplattform",
+      "company": "Tolletaten",
       "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d5f408e1-4380-40d1-ad7e-40a6bc8d3d97",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/538da835-0977-4231-b17d-771df9de6c9d",
       "deadline": null,
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Vil du bygge AI-løsninger som skaper reell verdi?",
-      "company": "EY",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/eed42142-78d5-4964-9fd1-44230010e2e4",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
+        "Cloud Engineer",
+        "Terraform"
       ],
       "first_seen": "2026-10-15"
     },
@@ -1244,7 +1261,8 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "AI Engineer"
+        "AI Engineer",
+        "DevOps Engineer"
       ],
       "first_seen": "2026-10-17"
     },
@@ -1258,9 +1276,24 @@
       "job_type": "Internship",
       "english_ok": true,
       "matched_keywords": [
+        "Cloud Engineer",
         "Platform Engineer"
       ],
       "first_seen": "2026-10-17"
+    },
+    {
+      "source": "NAV",
+      "title": "Director of AI Enablement",
+      "company": "Oda",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d7d788e0-a77c-4493-8bf6-5603806d844b",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-18"
     }
   ]
 }
