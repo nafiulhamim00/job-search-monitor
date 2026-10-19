@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T12:00:31.589964+00:00",
+  "generated_at": "2026-10-19T14:28:33.386160+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -165,6 +165,7 @@
       "matched_keywords": [
         "AI Engineer",
         "Cloud Engineer",
+        "DevOps Engineer",
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
@@ -180,6 +181,21 @@
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Azure-plattformingeniører – bygg Tolletatens nye skyplattform",
+      "company": "Tolletaten",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/538da835-0977-4231-b17d-771df9de6c9d",
+      "deadline": "2026-10-20",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Terraform"
       ],
       "first_seen": "2026-10-15"
     },
@@ -331,7 +347,8 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "AI Engineer"
+        "AI Engineer",
+        "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -692,6 +709,20 @@
     },
     {
       "source": "NAV",
+      "title": "DevOps \\& Test Engineer",
+      "company": "Kongsberg Norcontrol",
+      "location": "Horten",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a1ce9d86-a95a-495e-9653-e1db8d67c100",
+      "deadline": "2026-11-01",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-10-19"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Cyber Security Engineer",
       "company": "Head Energy Consulting AS",
       "location": "Oslo",
@@ -738,6 +769,20 @@
     },
     {
       "source": "NAV",
+      "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
+      "company": "NTNU - Norwegian University of Science and Technology",
+      "location": "Ålesund",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b3495126-a761-44c2-856b-2c4b8294bca4",
+      "deadline": "2026-11-19",
+      "job_type": "Temporary",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-19"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Python-utvikler med Kubernetes-erfaring til fornybar energi",
       "company": "Randstad Digital AS",
       "location": "Oslo",
@@ -747,21 +792,6 @@
       "english_ok": true,
       "matched_keywords": [
         "Kubernetes"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Azure-plattformingeniører – bygg Tolletatens nye skyplattform",
-      "company": "Tolletaten",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/538da835-0977-4231-b17d-771df9de6c9d",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer",
-        "Terraform"
       ],
       "first_seen": "2026-10-15"
     },
@@ -1098,7 +1128,8 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "AI Engineer"
+        "AI Engineer",
+        "Cloud Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -1219,7 +1250,8 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "DevOps Engineer"
+        "DevOps Engineer",
+        "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
     },
