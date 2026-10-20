@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T14:28:33.386160+00:00",
+  "generated_at": "2026-10-20T12:37:17.265984+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -746,6 +746,7 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "Cloud Engineer",
         "DevOps Engineer",
         "Kubernetes",
@@ -862,7 +863,7 @@
       "source": "FINN",
       "title": "AI Engineer",
       "company": "AECOM",
-      "location": "Join AECOM (earlier Consigli) as an AI Engineer in Oslo",
+      "location": "Oslo",
       "url": "https://www.finn.no/job/ad/478181364",
       "deadline": null,
       "job_type": "Full-time",
@@ -1025,6 +1026,7 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "DevOps Engineer"
       ],
       "first_seen": "2026-10-15"
@@ -1067,6 +1069,7 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-15"
@@ -1326,6 +1329,34 @@
         "AI Engineer"
       ],
       "first_seen": "2026-10-18"
+    },
+    {
+      "source": "NAV",
+      "title": "Infrastructure Operations Engineer, Stavanger",
+      "company": "Nscale",
+      "location": "Stavanger",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/9f2d55a0-1dc4-48f6-85b4-5c47e4d3715c",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-10-20"
+    },
+    {
+      "source": "NAV",
+      "title": "Infrastructure Operations Engineer, Glomfjord",
+      "company": "Nscale",
+      "location": "Glomfjord",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/92ed2fff-7f28-4644-a170-4ff4eea5c53d",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-10-20"
     }
   ]
 }
