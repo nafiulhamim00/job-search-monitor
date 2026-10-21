@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:37:17.265984+00:00",
+  "generated_at": "2026-10-21T12:48:49.719777+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -198,6 +198,20 @@
         "Terraform"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "FINN",
+      "title": "AI Regulatory Engineer",
+      "company": "GE HEALTHCARE AS",
+      "location": "Horten",
+      "url": "https://www.finn.no/job/ad/479238162",
+      "deadline": "2026-10-21",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-21"
     },
     {
       "source": "FINN",
@@ -720,6 +734,20 @@
         "DevOps Engineer"
       ],
       "first_seen": "2026-10-19"
+    },
+    {
+      "source": "NAV",
+      "title": "Cyber Security Specialist",
+      "company": "Kongsberg Norcontrol",
+      "location": "Horten",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d24be585-e0fb-4f55-886e-99717354f4ba",
+      "deadline": "2026-11-01",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-10-21"
     },
     {
       "source": "NAV",
@@ -1357,6 +1385,20 @@
         "Cloud Engineer"
       ],
       "first_seen": "2026-10-20"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Systems Engineer -- OT/IT \\& Cybersecurity",
+      "company": "Jobzone Stavanger",
+      "location": "Stavanger",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d7faf7e9-95d1-4bd0-9c9e-404a8bda5c9a",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-21"
     }
   ]
 }
