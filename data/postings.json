@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:48:49.719777+00:00",
+  "generated_at": "2026-10-22T12:52:09.823987+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -751,6 +751,20 @@
     },
     {
       "source": "NAV",
+      "title": "Lead Cybersecurity Growth Across Scandinavia",
+      "company": "DNV",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/41dbb045-6605-440c-8364-c6bd9cbe5405",
+      "deadline": "2026-11-01",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-22"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Cyber Security Engineer",
       "company": "Head Energy Consulting AS",
       "location": "Oslo",
@@ -809,6 +823,20 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-19"
+    },
+    {
+      "source": "FINN",
+      "title": "Data Engineer",
+      "company": "StormGeo",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/479292347",
+      "deadline": "2026-11-20",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-22"
     },
     {
       "source": "NAV",
@@ -1399,6 +1427,36 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-21"
+    },
+    {
+      "source": "NAV",
+      "title": "ML Engineer – Computer Vision: Build smarter, safer care technology",
+      "company": "Sensio",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/580e739f-20b0-4bb3-b72f-e0612c366c65",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-10-22"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Platform Engineer (Kubernetes)",
+      "company": "Six Robotics",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d751b4f1-f388-42a7-9b19-33232d56ba68",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-22"
     }
   ]
 }
