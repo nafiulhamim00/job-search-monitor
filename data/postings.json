@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T11:55:31.257392+00:00",
+  "generated_at": "2026-10-25T12:25:27.602632+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -366,6 +366,108 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Shape the future of industrial AI",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/11261983-e2c2-420f-a57b-a782f88aca08",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Apply AI where engineering meets industry, Aker Solutions AS, Lysaker",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8e5c59df-dcf1-4329-9207-84969e5eee9e",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Can you bridge strategy, architecture and AI innovation?",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b820de97-0b89-49fd-80df-ca2c7cc1e134",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Secure the next generation of AI agents",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b6ccbe79-b42b-4286-aa76-63d2da8c274d",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Lead Platform Engineer, Telenor Norge",
+      "company": "Trondheim",
+      "location": "Fornebu",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d9d87d47-3e75-4c4a-adc4-822c52bb7908",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Build the AI platforms behind tomorrow's energy projects",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5a07b911-0f45-4599-9d09-311581efe56f",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer",
+        "Platform Engineer",
+        "Terraform"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Shape how AI is used safely and responsibly at scale",
+      "company": "Aker Solutions AS",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a2c64f9f-4ab0-4e21-a1fd-eefa4ab22846",
+      "deadline": "2026-10-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-16"
     },
     {
       "source": "NAV",
@@ -779,108 +881,6 @@
         "Kubernetes"
       ],
       "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Shape the future of industrial AI",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/11261983-e2c2-420f-a57b-a782f88aca08",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Apply AI where engineering meets industry, Aker Solutions AS, Lysaker",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8e5c59df-dcf1-4329-9207-84969e5eee9e",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Can you bridge strategy, architecture and AI innovation?",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b820de97-0b89-49fd-80df-ca2c7cc1e134",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Secure the next generation of AI agents",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b6ccbe79-b42b-4286-aa76-63d2da8c274d",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Lead Platform Engineer, Telenor Norge",
-      "company": "Trondheim",
-      "location": "Fornebu",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d9d87d47-3e75-4c4a-adc4-822c52bb7908",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "DevOps Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Build the AI platforms behind tomorrow's energy projects",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5a07b911-0f45-4599-9d09-311581efe56f",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "DevOps Engineer",
-        "Platform Engineer",
-        "Terraform"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Shape how AI is used safely and responsibly at scale",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a2c64f9f-4ab0-4e21-a1fd-eefa4ab22846",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-16"
     },
     {
       "source": "FINN",
