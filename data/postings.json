@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:25:27.602632+00:00",
+  "generated_at": "2026-10-26T14:01:45.474639+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -470,20 +470,6 @@
       "first_seen": "2026-10-16"
     },
     {
-      "source": "NAV",
-      "title": "Jobb med mening? Vi søker DevOps-utvikler til viktige oppgaver for helsesektoren!",
-      "company": "Norsk helsenett",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/901a5bb9-cfae-4ddd-8d43-e8b3d5a9a6fd",
-      "deadline": "2026-10-28",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Kubernetes"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
       "source": "FINN",
       "title": "Data Scientist - Industrial Data & Analytics",
       "company": "SLB Kristiansand",
@@ -557,6 +543,20 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Fra solid .NET-utvikling til praktisk AI: vil du være med fra starten?",
+      "company": "Handelshøyskolen BI",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d6c152ed-e37e-425b-afde-296bbf3ff883",
+      "deadline": "2026-10-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-26"
     },
     {
       "source": "FINN",
@@ -875,6 +875,20 @@
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f4cb6a22-178f-4cb1-8a24-986405bce849",
       "deadline": "2026-11-27",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Kubernetes"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Jobb med mening? Vi søker DevOps-utvikler til viktige oppgaver for helsesektoren!",
+      "company": "Norsk helsenett",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/901a5bb9-cfae-4ddd-8d43-e8b3d5a9a6fd",
+      "deadline": null,
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
