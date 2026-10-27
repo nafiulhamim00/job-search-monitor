@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:01:45.474639+00:00",
+  "generated_at": "2026-10-27T13:04:22.871617+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -470,6 +470,34 @@
       "first_seen": "2026-10-16"
     },
     {
+      "source": "NAV",
+      "title": "AI Engineer / KI-ingeniør -- Bli med og bygg fremtidens bank!",
+      "company": "Teknologiutvikling",
+      "location": "Tromsø",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/0a0e6b2d-7bb8-4f0a-b143-c46a885d99b5",
+      "deadline": "2026-10-27",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
+      "title": "Jobb med mening? Vi søker DevOps-utvikler til viktige oppgaver for helsesektoren!",
+      "company": "Norsk helsenett",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/901a5bb9-cfae-4ddd-8d43-e8b3d5a9a6fd",
+      "deadline": "2026-10-28",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Kubernetes"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
       "source": "FINN",
       "title": "Data Scientist - Industrial Data & Analytics",
       "company": "SLB Kristiansand",
@@ -767,6 +795,20 @@
     },
     {
       "source": "NAV",
+      "title": "AI Tech Lead -- vil du være med og forme hvordan Posten Bring bruker agentisk AI?",
+      "company": "Posten Bring AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/24d2093c-c032-4e6e-9086-4e6445d03b9f",
+      "deadline": "2026-11-01",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Cyber Security Engineer",
       "company": "Head Energy Consulting AS",
       "location": "Oslo",
@@ -828,6 +870,21 @@
     },
     {
       "source": "NAV",
+      "title": "Network \\& Security Engineer",
+      "company": "Kongsberg Maritime",
+      "location": "Kongsberg",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3d417f65-f64a-408e-930b-5dbe51933ca6",
+      "deadline": "2026-11-15",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
       "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
       "company": "NTNU - Norwegian University of Science and Technology",
       "location": "Ålesund",
@@ -870,25 +927,40 @@
     },
     {
       "source": "NAV",
+      "title": "As System Manager Data Solutions, you will connect business, engineering, security, operations and vendors, translati...",
+      "company": "Statkraft",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d69c8553-cff2-4b33-8735-186c88cb07f7",
+      "deadline": "2026-11-22",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
+      "title": "Drive Data Platform Innovation at Statkraft",
+      "company": "Statkraft AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b14570f1-6a6f-4cef-8e2b-52ab8cf03d21",
+      "deadline": "2026-11-22",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Python-utvikler med Kubernetes-erfaring til fornybar energi",
       "company": "Randstad Digital AS",
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f4cb6a22-178f-4cb1-8a24-986405bce849",
       "deadline": "2026-11-27",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Kubernetes"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Jobb med mening? Vi søker DevOps-utvikler til viktige oppgaver for helsesektoren!",
-      "company": "Norsk helsenett",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/901a5bb9-cfae-4ddd-8d43-e8b3d5a9a6fd",
-      "deadline": null,
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
@@ -1308,6 +1380,7 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "Cloud Engineer",
         "Platform Engineer"
       ],
@@ -1482,6 +1555,7 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "Cloud Engineer"
       ],
       "first_seen": "2026-10-22"
@@ -1496,6 +1570,7 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "AI Engineer",
         "DevOps Engineer",
         "Kubernetes",
         "Platform Engineer"
