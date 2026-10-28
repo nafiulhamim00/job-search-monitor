@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:04:22.871617+00:00",
+  "generated_at": "2026-10-28T13:54:14.006519+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -544,49 +544,6 @@
       "first_seen": "2026-10-15"
     },
     {
-      "source": "NAV",
-      "title": "Senior Data Engineer \\| Snowflake \\| Data \\& Innsikt 🚀",
-      "company": "Optimera AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8eeb22f7-316a-4e08-9a5b-9c97a6f70a1e",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Security Engineer, Core",
-      "company": "Vend",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Fra solid .NET-utvikling til praktisk AI: vil du være med fra starten?",
-      "company": "Handelshøyskolen BI",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d6c152ed-e37e-425b-afde-296bbf3ff883",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-26"
-    },
-    {
       "source": "FINN",
       "title": "Site Reliability Engineer, Delivery Platforms",
       "company": "Vend",
@@ -809,6 +766,20 @@
     },
     {
       "source": "NAV",
+      "title": "Vil du utvikle selskaper med hjelp av AI og data? Vi utdanner deg til AI Consultant på 6 uker!",
+      "company": "AW Academy i samarbeid med Accenture",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1bb6f067-78c8-4008-9f48-306015a1d424",
+      "deadline": "2026-11-01",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-28"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Cyber Security Engineer",
       "company": "Head Energy Consulting AS",
       "location": "Oslo",
@@ -967,6 +938,49 @@
         "Kubernetes"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Data Engineer \\| Snowflake \\| Data \\& Innsikt 🚀",
+      "company": "Optimera AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8eeb22f7-316a-4e08-9a5b-9c97a6f70a1e",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Security Engineer, Core",
+      "company": "Vend",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Fra solid .NET-utvikling til praktisk AI: vil du være med fra starten?",
+      "company": "Handelshøyskolen BI",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d6c152ed-e37e-425b-afde-296bbf3ff883",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-26"
     },
     {
       "source": "FINN",
@@ -1576,6 +1590,20 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-22"
+    },
+    {
+      "source": "NAV",
+      "title": "Seniorutvikler – Java, DevOps og skyløsninger | Oslo, Trondheim Engineering AS",
+      "company": "Sogndal",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7c2fdce9-4db4-4dbe-add1-e591d502198d",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-10-28"
     }
   ]
 }
