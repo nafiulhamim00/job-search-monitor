@@ -453,10 +453,12 @@ def main():
     existing = load_existing()
     merged: dict[str, Posting] = {}
 
-    EXPIRY_GRACE_DAYS = 30  # keep closed postings around a while - you may have
-                             # marked one "Applied" in the browser (localStorage),
-                             # which this script has no way to see, so don't drop
-                             # it the instant its deadline passes.
+    EXPIRY_GRACE_DAYS = 3  # keep closed postings around briefly - you may have
+                            # marked one "Applied" in the browser (localStorage),
+                            # which this script has no way to see, so don't drop
+                            # it the instant its deadline passes. Short on purpose:
+                            # the list should stay mostly current, not accumulate
+                            # closed postings.
     for url, old in existing.items():
         old_deadline = dt.date.fromisoformat(old["deadline"]) if old["deadline"] else None
         if old_deadline and old_deadline < today - dt.timedelta(days=EXPIRY_GRACE_DAYS):

@@ -16,9 +16,10 @@ as a static page via GitHub Pages.
   labelled Graduate Program, regardless of the site's own employment-type field. Nothing is
   excluded by employment type — internships and graduate programs are kept, not just full-time.
 - Results are merged into `data/postings.json`, which persists across runs: already-seen postings
-  are kept and updated (not duplicated), expired ones (deadline passed more than 30 days ago) are
-  dropped — a short grace period, since "Applied" status lives only in the browser (see below) and
-  this script has no way to know not to drop something you've marked as applied.
+  are kept and updated (not duplicated), expired ones (deadline passed more than 3 days ago) are
+  dropped — a brief grace period, since "Applied" status lives only in the browser (see below) and
+  this script has no way to know not to drop something you've marked as applied. Kept short on
+  purpose so the list stays mostly current rather than accumulating closed postings.
 - `docs/index.html` is regenerated from that data on every run — one list sorted by deadline
   ascending, colour-coded by urgency (red: ≤3 days, amber: ≤7 days, grey: rolling/no deadline).
   Each row shows its Type (Full-time/Internship/Graduate Program/etc.) as plain text, so browser
