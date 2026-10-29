@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:54:14.006519+00:00",
+  "generated_at": "2026-10-29T14:00:18.677832+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -544,6 +544,49 @@
       "first_seen": "2026-10-15"
     },
     {
+      "source": "NAV",
+      "title": "Senior Data Engineer \\| Snowflake \\| Data \\& Innsikt 🚀",
+      "company": "Optimera AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8eeb22f7-316a-4e08-9a5b-9c97a6f70a1e",
+      "deadline": "2026-10-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Security Engineer, Core",
+      "company": "Vend",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
+      "deadline": "2026-10-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Fra solid .NET-utvikling til praktisk AI: vil du være med fra starten?",
+      "company": "Handelshøyskolen BI",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d6c152ed-e37e-425b-afde-296bbf3ff883",
+      "deadline": "2026-10-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-26"
+    },
+    {
       "source": "FINN",
       "title": "Site Reliability Engineer, Delivery Platforms",
       "company": "Vend",
@@ -559,24 +602,6 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Site Reliability Engineer, Delivery Platforms",
-      "company": "Vend",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/35fb0851-84be-4422-a36c-ba41893d2f47",
-      "deadline": "2026-10-31",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "DevOps Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-16"
     },
     {
       "source": "FINN",
@@ -856,6 +881,20 @@
     },
     {
       "source": "NAV",
+      "title": "Help shape the future of Norway's leading cybersecurity company",
+      "company": "mnemonic AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/14302ea6-8106-4bed-9d24-3fbf1e20401d",
+      "deadline": "2026-11-15",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-29"
+    },
+    {
+      "source": "NAV",
       "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
       "company": "NTNU - Norwegian University of Science and Technology",
       "location": "Ålesund",
@@ -941,46 +980,21 @@
     },
     {
       "source": "NAV",
-      "title": "Senior Data Engineer \\| Snowflake \\| Data \\& Innsikt 🚀",
-      "company": "Optimera AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8eeb22f7-316a-4e08-9a5b-9c97a6f70a1e",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Security Engineer, Core",
+      "title": "Site Reliability Engineer, Delivery Platforms",
       "company": "Vend",
       "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/35fb0851-84be-4422-a36c-ba41893d2f47",
       "deadline": null,
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Kubernetes",
         "Platform Engineer"
       ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Fra solid .NET-utvikling til praktisk AI: vil du være med fra starten?",
-      "company": "Handelshøyskolen BI",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d6c152ed-e37e-425b-afde-296bbf3ff883",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-26"
+      "first_seen": "2026-10-16"
     },
     {
       "source": "FINN",
@@ -1604,6 +1618,63 @@
         "DevOps Engineer"
       ],
       "first_seen": "2026-10-28"
+    },
+    {
+      "source": "FINN",
+      "title": "Teamleder",
+      "company": "Data Nova AS",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/479797035",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Kubernetes"
+      ],
+      "first_seen": "2026-10-29"
+    },
+    {
+      "source": "NAV",
+      "title": "Shape AI-Driven Product Innovation at Landax",
+      "company": "EG",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/baa2b6be-c5da-45ad-ac44-89323a9adb90",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-29"
+    },
+    {
+      "source": "NAV",
+      "title": "Know your cloud but want to learn more? Into DevOps? Join our operations team and sharpen your skills!",
+      "company": "Kabal AS norway",
+      "location": "Stavanger",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/71eaf7bf-4909-41d5-84bd-28d585246598",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-10-29"
+    },
+    {
+      "source": "NAV",
+      "title": "Data & Platform Architect",
+      "company": "Kongsberg Digital",
+      "location": "Fornebu",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ce5e707c-d0a7-4170-bd76-703372577cca",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-29"
     }
   ]
 }
