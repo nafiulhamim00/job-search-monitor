@@ -1,217 +1,6 @@
 {
-  "generated_at": "2026-10-29T19:01:44.242329+00:00",
+  "generated_at": "2026-10-30T10:23:53.232961+00:00",
   "postings": [
-    {
-      "source": "FINN",
-      "title": "AI Security Engineer",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://www.finn.no/job/ad/478005904",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "AI Platform & Infrastructure Engineer",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://www.finn.no/job/ad/478005360",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "Platform Engineer",
-        "Terraform"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "AI Solutions Engineer",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://www.finn.no/job/ad/478004142",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "AI Discipline Lead",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://www.finn.no/job/ad/478006279",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "AI Governance Lead",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://www.finn.no/job/ad/478006753",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "Senior Data Scientist",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://www.finn.no/job/ad/478002572",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "AI Architect",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://www.finn.no/job/ad/478004633",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Shape the future of industrial AI",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/11261983-e2c2-420f-a57b-a782f88aca08",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Apply AI where engineering meets industry, Aker Solutions AS, Lysaker",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8e5c59df-dcf1-4329-9207-84969e5eee9e",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Can you bridge strategy, architecture and AI innovation?",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b820de97-0b89-49fd-80df-ca2c7cc1e134",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Secure the next generation of AI agents",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b6ccbe79-b42b-4286-aa76-63d2da8c274d",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Lead Platform Engineer, Telenor Norge",
-      "company": "Trondheim",
-      "location": "Fornebu",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d9d87d47-3e75-4c4a-adc4-822c52bb7908",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "DevOps Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Build the AI platforms behind tomorrow's energy projects",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/5a07b911-0f45-4599-9d09-311581efe56f",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "DevOps Engineer",
-        "Platform Engineer",
-        "Terraform"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Shape how AI is used safely and responsibly at scale",
-      "company": "Aker Solutions AS",
-      "location": "Lysaker",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a2c64f9f-4ab0-4e21-a1fd-eefa4ab22846",
-      "deadline": "2026-10-26",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-16"
-    },
     {
       "source": "NAV",
       "title": "AI Engineer / KI-ingeniør -- Bli med og bygg fremtidens bank!",
@@ -302,21 +91,6 @@
     },
     {
       "source": "NAV",
-      "title": "Security Engineer, Core",
-      "company": "Vend",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
       "title": "Fra solid .NET-utvikling til praktisk AI: vil du være med fra starten?",
       "company": "Handelshøyskolen BI",
       "location": "Oslo",
@@ -345,6 +119,24 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Site Reliability Engineer, Delivery Platforms",
+      "company": "Vend",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/35fb0851-84be-4422-a36c-ba41893d2f47",
+      "deadline": "2026-10-31",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-16"
     },
     {
       "source": "FINN",
@@ -404,147 +196,6 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "AI-ingeniør",
-      "company": "Kongsberg Norcontrol",
-      "location": "Horten",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/254b0279-d8c1-4594-b0d9-fb3bcb6a5e48",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Bli en del av Accentures AI-satsing og utvikle løsninger som betyr noe. Vi utdanner deg til AI Developer på 6 uker!",
-      "company": "AW Academy i samarbeid med Accenture",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ce171c60-2a0e-4662-9337-51e3aa310c85",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Senior Software Engineer – autonomous AI workflows",
-      "company": "Crunched Tech AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dc4419d8-0afe-4f0a-a208-0e3bdc069c2a",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Senior Backend Engineer – payment infrastructure at scale",
-      "company": "Dintero AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/791c907e-fe29-4f3c-94b4-aee94d7a9827",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Senior Cybersecurity & Incident Response Lead",
-      "company": "Dintero AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/bdd1d358-5e3f-49be-95c1-86e107bf4def",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cybersecurity Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "DevOps \\& Test Engineer",
-      "company": "Kongsberg Norcontrol",
-      "location": "Horten",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a1ce9d86-a95a-495e-9653-e1db8d67c100",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "DevOps Engineer"
-      ],
-      "first_seen": "2026-10-19"
-    },
-    {
-      "source": "NAV",
-      "title": "Cyber Security Specialist",
-      "company": "Kongsberg Norcontrol",
-      "location": "Horten",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d24be585-e0fb-4f55-886e-99717354f4ba",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer",
-        "DevOps Engineer"
-      ],
-      "first_seen": "2026-10-21"
-    },
-    {
-      "source": "NAV",
-      "title": "Lead Cybersecurity Growth Across Scandinavia",
-      "company": "DNV",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/41dbb045-6605-440c-8364-c6bd9cbe5405",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cybersecurity Engineer"
-      ],
-      "first_seen": "2026-10-22"
-    },
-    {
-      "source": "NAV",
-      "title": "AI Tech Lead -- vil du være med og forme hvordan Posten Bring bruker agentisk AI?",
-      "company": "Posten Bring AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/24d2093c-c032-4e6e-9086-4e6445d03b9f",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-27"
-    },
-    {
-      "source": "NAV",
-      "title": "Vil du utvikle selskaper med hjelp av AI og data? Vi utdanner deg til AI Consultant på 6 uker!",
-      "company": "AW Academy i samarbeid med Accenture",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1bb6f067-78c8-4008-9f48-306015a1d424",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-28"
     },
     {
       "source": "NAV",
@@ -723,21 +374,159 @@
     },
     {
       "source": "NAV",
-      "title": "Site Reliability Engineer, Delivery Platforms",
+      "title": "Security Engineer, Core",
       "company": "Vend",
       "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/35fb0851-84be-4422-a36c-ba41893d2f47",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
       "deadline": null,
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "AI Engineer",
-        "Cloud Engineer",
-        "DevOps Engineer",
-        "Kubernetes",
         "Platform Engineer"
       ],
-      "first_seen": "2026-10-16"
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "AI-ingeniør",
+      "company": "Kongsberg Norcontrol",
+      "location": "Horten",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/254b0279-d8c1-4594-b0d9-fb3bcb6a5e48",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Bli en del av Accentures AI-satsing og utvikle løsninger som betyr noe. Vi utdanner deg til AI Developer på 6 uker!",
+      "company": "AW Academy i samarbeid med Accenture",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ce171c60-2a0e-4662-9337-51e3aa310c85",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Software Engineer – autonomous AI workflows",
+      "company": "Crunched Tech AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dc4419d8-0afe-4f0a-a208-0e3bdc069c2a",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Backend Engineer – payment infrastructure at scale",
+      "company": "Dintero AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/791c907e-fe29-4f3c-94b4-aee94d7a9827",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Cybersecurity & Incident Response Lead",
+      "company": "Dintero AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/bdd1d358-5e3f-49be-95c1-86e107bf4def",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "DevOps \\& Test Engineer",
+      "company": "Kongsberg Norcontrol",
+      "location": "Horten",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a1ce9d86-a95a-495e-9653-e1db8d67c100",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-10-19"
+    },
+    {
+      "source": "NAV",
+      "title": "Cyber Security Specialist",
+      "company": "Kongsberg Norcontrol",
+      "location": "Horten",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d24be585-e0fb-4f55-886e-99717354f4ba",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-10-21"
+    },
+    {
+      "source": "NAV",
+      "title": "Lead Cybersecurity Growth Across Scandinavia",
+      "company": "DNV",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/41dbb045-6605-440c-8364-c6bd9cbe5405",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-22"
+    },
+    {
+      "source": "NAV",
+      "title": "AI Tech Lead -- vil du være med og forme hvordan Posten Bring bruker agentisk AI?",
+      "company": "Posten Bring AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/24d2093c-c032-4e6e-9086-4e6445d03b9f",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du utvikle selskaper med hjelp av AI og data? Vi utdanner deg til AI Consultant på 6 uker!",
+      "company": "AW Academy i samarbeid med Accenture",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1bb6f067-78c8-4008-9f48-306015a1d424",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-28"
     },
     {
       "source": "FINN",
@@ -1419,6 +1208,20 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-29"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du skape forretningsmuligheter innenfor data, analytics, AI og engineering?",
+      "company": "NOVA",
+      "location": "Kristiansand S",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7b6c4c75-a692-4b0f-b63e-0572cec74315",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-30"
     }
   ]
 }
