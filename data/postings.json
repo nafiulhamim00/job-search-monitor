@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-10-31T13:26:36.471975+00:00",
+  "generated_at": "2026-11-01T14:08:51.599624+00:00",
   "postings": [
-    {
-      "source": "NAV",
-      "title": "Jobb med mening? Vi søker DevOps-utvikler til viktige oppgaver for helsesektoren!",
-      "company": "Norsk helsenett",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/901a5bb9-cfae-4ddd-8d43-e8b3d5a9a6fd",
-      "deadline": "2026-10-28",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Kubernetes"
-      ],
-      "first_seen": "2026-10-15"
-    },
     {
       "source": "FINN",
       "title": "Data Scientist - Industrial Data & Analytics",
