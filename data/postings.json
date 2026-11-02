@@ -1,21 +1,6 @@
 {
-  "generated_at": "2026-11-01T14:08:51.599624+00:00",
+  "generated_at": "2026-11-02T16:54:51.177175+00:00",
   "postings": [
-    {
-      "source": "FINN",
-      "title": "Data Scientist - Industrial Data & Analytics",
-      "company": "SLB Kristiansand",
-      "location": "Kristiansand S",
-      "url": "https://www.finn.no/job/ad/478573574",
-      "deadline": "2026-10-29",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
     {
       "source": "FINN",
       "title": "Security Engineer, Core",
@@ -89,21 +74,6 @@
         "Cloud Engineer",
         "Kubernetes",
         "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "AI Consultant",
-      "company": "AW Academy i samarbeid med Accenture",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/478111893",
-      "deadline": "2026-11-01",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer"
       ],
       "first_seen": "2026-10-15"
     },
@@ -369,6 +339,22 @@
       "first_seen": "2026-10-29"
     },
     {
+      "source": "FINN",
+      "title": "AI & Software Engineers",
+      "company": "Ignite",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/480114534",
+      "deadline": "2026-11-15",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
       "source": "NAV",
       "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
       "company": "NTNU - Norwegian University of Science and Technology",
@@ -450,6 +436,79 @@
       "english_ok": true,
       "matched_keywords": [
         "Kubernetes"
+      ],
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Software Engineer – build autonomous AI workflows at Crunched",
+      "company": "Crunched Tech AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/13e00d52-a712-4730-a3a6-fd5188827c68",
+      "deadline": "2026-11-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "source": "NAV",
+      "title": "Software Engineer – Data & Core Platform | Oslo",
+      "company": "Your Headway AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/9d82a726-49d7-4868-93df-8c3b518eca07",
+      "deadline": "2026-11-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Cybersecurity & Incident Response Lead – Dintero",
+      "company": "Dintero AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a09f2385-3f6d-4e62-ba9f-0e89d8e5327e",
+      "deadline": "2026-11-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "source": "NAV",
+      "title": "PhD Research Fellow Systems Engineering–Early systems integration in AI-enabled systems-of-systems",
+      "company": "University of South-Eastern Norway",
+      "location": "Kongsberg",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b10efc1f-68da-4f8d-8fb8-6047b0446254",
+      "deadline": "2026-12-15",
+      "job_type": "Temporary",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-02"
+    },
+    {
+      "source": "FINN",
+      "title": "AI Consultant",
+      "company": "AW Academy i samarbeid med Accenture",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/478111893",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer"
       ],
       "first_seen": "2026-10-15"
     },
