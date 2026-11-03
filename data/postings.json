@@ -1,65 +1,6 @@
 {
-  "generated_at": "2026-11-02T16:54:51.177175+00:00",
+  "generated_at": "2026-11-03T14:54:56.150421+00:00",
   "postings": [
-    {
-      "source": "FINN",
-      "title": "Security Engineer, Core",
-      "company": "Vend",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/478009702",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "FINN",
-      "title": "Senior Data Engineer",
-      "company": "Optimera AS",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/477720621",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Senior Data Engineer \\| Snowflake \\| Data \\& Innsikt 🚀",
-      "company": "Optimera AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/8eeb22f7-316a-4e08-9a5b-9c97a6f70a1e",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Fra solid .NET-utvikling til praktisk AI: vil du være med fra starten?",
-      "company": "Handelshøyskolen BI",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d6c152ed-e37e-425b-afde-296bbf3ff883",
-      "deadline": "2026-10-30",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-26"
-    },
     {
       "source": "FINN",
       "title": "Site Reliability Engineer, Delivery Platforms",
@@ -356,6 +297,21 @@
     },
     {
       "source": "NAV",
+      "title": "Analytics and Data Engineer",
+      "company": "Protector Forsikring Norge",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1acdf550-55db-4dfa-bcaf-85bfd592224c",
+      "deadline": "2026-11-15",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-11-03"
+    },
+    {
+      "source": "NAV",
       "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
       "company": "NTNU - Norwegian University of Science and Technology",
       "location": "Ålesund",
@@ -426,6 +382,20 @@
       "first_seen": "2026-10-27"
     },
     {
+      "source": "FINN",
+      "title": "Cyber Security Engineer",
+      "company": "ABB AS",
+      "location": "Stord",
+      "url": "https://www.finn.no/job/ad/480186853",
+      "deadline": "2026-11-24",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-11-03"
+    },
+    {
       "source": "NAV",
       "title": "Senior Python-utvikler med Kubernetes-erfaring til fornybar energi",
       "company": "Randstad Digital AS",
@@ -482,6 +452,35 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-11-02"
+    },
+    {
+      "source": "NAV",
+      "title": "Help leading energy companies drill smarter with AI",
+      "company": "EXEBENUS",
+      "location": "Stavanger",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dea3df5b-657d-4077-9c53-e90956d838d0",
+      "deadline": "2026-12-10",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-03"
+    },
+    {
+      "source": "FINN",
+      "title": "Machine Learning Engieer",
+      "company": "Kilter",
+      "location": "Langhus",
+      "url": "https://www.finn.no/job/ad/480189146",
+      "deadline": "2026-12-13",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-11-03"
     },
     {
       "source": "NAV",
@@ -1254,6 +1253,41 @@
         "AI Engineer"
       ],
       "first_seen": "2026-10-30"
+    },
+    {
+      "source": "FINN",
+      "title": "Lead DevSecOps Security Engineer or Senior Manager, Information Security Engineering",
+      "company": "Sportradar AS",
+      "location": "Trondheim",
+      "url": "https://www.finn.no/job/ad/480181653",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-03"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Platform Engineer – Kubernetes | Oslo, Trondheim Engineering AS",
+      "company": "Oslo",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/79213f7a-e77f-48d2-b39c-a390a9065371",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Kubernetes",
+        "Platform Engineer",
+        "Terraform"
+      ],
+      "first_seen": "2026-11-03"
     }
   ]
 }
