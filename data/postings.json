@@ -1,23 +1,6 @@
 {
-  "generated_at": "2026-11-03T14:54:56.150421+00:00",
+  "generated_at": "2026-11-04T15:15:19.945214+00:00",
   "postings": [
-    {
-      "source": "FINN",
-      "title": "Site Reliability Engineer, Delivery Platforms",
-      "company": "Vend",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/478591707",
-      "deadline": "2026-10-31",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
     {
       "source": "FINN",
       "title": "Data Engineer",
@@ -311,6 +294,39 @@
       "first_seen": "2026-11-03"
     },
     {
+      "source": "FINN",
+      "title": "Product Security Engineer",
+      "company": "Vend",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/478009702",
+      "deadline": "2026-11-15",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
+      "source": "FINN",
+      "title": "Senior Analytics & AI Engineer",
+      "company": "TGS Prediktor AS",
+      "location": "Gamle Fredrikstad",
+      "url": "https://www.finn.no/job/ad/480221448",
+      "deadline": "2026-11-16",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
       "source": "NAV",
       "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
       "company": "NTNU - Norwegian University of Science and Technology",
@@ -396,6 +412,20 @@
       "first_seen": "2026-11-03"
     },
     {
+      "source": "FINN",
+      "title": "Data Engineer romdomenet",
+      "company": "Etterretningstjenesten",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/480255538",
+      "deadline": "2026-11-25",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Kubernetes"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
       "source": "NAV",
       "title": "Senior Python-utvikler med Kubernetes-erfaring til fornybar energi",
       "company": "Randstad Digital AS",
@@ -452,6 +482,20 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-11-02"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du skape forretningsmuligheter innenfor data, analytics, AI og engineering?",
+      "company": "NOVA",
+      "location": "Kristiansand S",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7b6c4c75-a692-4b0f-b63e-0572cec74315",
+      "deadline": "2026-12-08",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-10-30"
     },
     {
       "source": "NAV",
@@ -1241,20 +1285,6 @@
       "first_seen": "2026-10-29"
     },
     {
-      "source": "NAV",
-      "title": "Vil du skape forretningsmuligheter innenfor data, analytics, AI og engineering?",
-      "company": "NOVA",
-      "location": "Kristiansand S",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7b6c4c75-a692-4b0f-b63e-0572cec74315",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-30"
-    },
-    {
       "source": "FINN",
       "title": "Lead DevSecOps Security Engineer or Senior Manager, Information Security Engineering",
       "company": "Sportradar AS",
@@ -1274,7 +1304,7 @@
     {
       "source": "NAV",
       "title": "Senior Platform Engineer – Kubernetes | Oslo, Trondheim Engineering AS",
-      "company": "Oslo",
+      "company": "Trondheim Engineering AS",
       "location": "Oslo",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/79213f7a-e77f-48d2-b39c-a390a9065371",
       "deadline": null,
@@ -1288,6 +1318,120 @@
         "Terraform"
       ],
       "first_seen": "2026-11-03"
+    },
+    {
+      "source": "FINN",
+      "title": "Software & Platform Engineer",
+      "company": "Defendable AS",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/480193204",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
+      "source": "FINN",
+      "title": "Senior Cloud Engineer",
+      "company": "Capgemini Norge AS",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/480254242",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Kubernetes",
+        "Platform Engineer",
+        "Terraform"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
+      "source": "FINN",
+      "title": "Senior Machine Learning Engineer - Strategic Delivery Lead (Oslo) 🇳🇴",
+      "company": "Modulai AB",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/479778069",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "DevOps Engineer",
+        "Kubernetes"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
+      "source": "FINN",
+      "title": "Senior Security Engineers and Technical Advisors",
+      "company": "Defendable AS",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/480193096",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
+      "source": "NAV",
+      "title": "AI & Software Engineers",
+      "company": "Ignite",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/01782521-9832-40f4-8e47-a82f78e207fc",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
+      "source": "NAV",
+      "title": "DevOps Engineer",
+      "company": "APEX IT AS",
+      "location": "Tiller",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/fc0ad2a7-5ad8-4273-aca0-53c20f8acb8c",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-11-04"
+    },
+    {
+      "source": "NAV",
+      "title": "Teamlead Telemetry Platform",
+      "company": "Six Robotics",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/fa51791a-24dc-4257-b4d1-4e6bdd1519f5",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-04"
     }
   ]
 }
