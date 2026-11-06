@@ -1,39 +1,6 @@
 {
-  "generated_at": "2026-11-05T15:16:30.044233+00:00",
+  "generated_at": "2026-11-06T14:51:59.164102+00:00",
   "postings": [
-    {
-      "source": "NAV",
-      "title": "Senior Cyber Security Engineer",
-      "company": "Head Energy Consulting AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cb1e5b64-2f5d-4073-952f-a20a7bda0f1b",
-      "deadline": "2026-11-02",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "NAV",
-      "title": "Senior Platform Engineer",
-      "company": "Statkraft",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/90d66b66-2c7a-49d2-88fd-3403996b20ed",
-      "deadline": "2026-11-08",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "DevOps Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
     {
       "source": "NAV",
       "title": "Senior Computer Vision & AI Engineer",
@@ -155,6 +122,22 @@
     },
     {
       "source": "FINN",
+      "title": "Analytics and Data Engineer",
+      "company": "Protector Forsikring Norge",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/479907167",
+      "deadline": "2026-11-15",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-06"
+    },
+    {
+      "source": "FINN",
       "title": "Senior Analytics & AI Engineer",
       "company": "TGS Prediktor AS",
       "location": "Gamle Fredrikstad",
@@ -184,6 +167,38 @@
         "DevOps Engineer"
       ],
       "first_seen": "2026-11-05"
+    },
+    {
+      "source": "FINN",
+      "title": "Principal Agentic AI Expert",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://www.finn.no/job/ad/480372982",
+      "deadline": "2026-11-18",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-06"
+    },
+    {
+      "source": "FINN",
+      "title": "Data Scientist - Agentic AI",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://www.finn.no/job/ad/480371482",
+      "deadline": "2026-11-18",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-06"
     },
     {
       "source": "NAV",
@@ -328,6 +343,20 @@
     },
     {
       "source": "NAV",
+      "title": "Do you want to help shape how Nordic navigates AI, data, privacy and cyber resilience regulation?",
+      "company": "Nordic Semiconductor",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/f15a1bfa-46c3-430b-8ae7-bac419007443",
+      "deadline": "2026-11-29",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-11-06"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Software Engineer – build autonomous AI workflows at Crunched",
       "company": "Crunched Tech AS",
       "location": "Oslo",
@@ -426,6 +455,24 @@
         "AI Engineer"
       ],
       "first_seen": "2026-11-02"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Platform Engineer",
+      "company": "Statkraft",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/90d66b66-2c7a-49d2-88fd-3403996b20ed",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-15"
     },
     {
       "source": "FINN",
@@ -1335,6 +1382,24 @@
         "Kubernetes"
       ],
       "first_seen": "2026-11-05"
+    },
+    {
+      "source": "FINN",
+      "title": "Senior Platform Engineer",
+      "company": "NTB",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/480366844",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Platform Engineer",
+        "Terraform"
+      ],
+      "first_seen": "2026-11-06"
     }
   ]
 }
