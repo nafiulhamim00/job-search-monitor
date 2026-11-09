@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T14:09:43.930095+00:00",
+  "generated_at": "2026-11-09T17:17:06.697879+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -333,6 +333,21 @@
     },
     {
       "source": "FINN",
+      "title": "Data Scientist - Industrial Data & Analytics",
+      "company": "SLB Kristiansand",
+      "location": "Kristiansand S",
+      "url": "https://www.finn.no/job/ad/478573574",
+      "deadline": "2026-11-24",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-09"
+    },
+    {
+      "source": "FINN",
       "title": "Data Engineer romdomenet",
       "company": "Etterretningstjenesten",
       "location": "Oslo",
@@ -372,6 +387,21 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-11-06"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du bygge sikre AI-løsninger som kjører der dataene faktisk er?",
+      "company": "Radionor Communications AS",
+      "location": "Trondheim",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/bf2ef43a-4b69-4ec5-a246-8ce2689a087b",
+      "deadline": "2026-11-29",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Kubernetes"
+      ],
+      "first_seen": "2026-11-09"
     },
     {
       "source": "NAV",
@@ -1400,6 +1430,20 @@
         "Terraform"
       ],
       "first_seen": "2026-11-06"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Security Engineers and Technical Advisors",
+      "company": "Defendable AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/9a5d9d4c-1f67-4b93-aed6-fb6a5d1bd963",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-11-09"
     }
   ]
 }
