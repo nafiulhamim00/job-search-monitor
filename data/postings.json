@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:17:06.697879+00:00",
+  "generated_at": "2026-11-10T15:28:42.421272+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -217,6 +217,20 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-11-06"
+    },
+    {
+      "source": "NAV",
+      "title": "Data Scientist - Agentic AI",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/2d67e6f8-479e-477e-bef4-7e0bc9004b07",
+      "deadline": "2026-11-18",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-10"
     },
     {
       "source": "NAV",
