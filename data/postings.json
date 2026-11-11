@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T15:28:42.421272+00:00",
+  "generated_at": "2026-11-11T14:59:26.541366+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -18,6 +18,20 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-15"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du være med og bygge fremtidens Hybrid Cloud-løsninger?",
+      "company": "Atea AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d098507c-8f75-4a55-b928-88d55d2b1db0",
+      "deadline": "2026-11-11",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Terraform"
+      ],
+      "first_seen": "2026-11-11"
     },
     {
       "source": "NAV",
@@ -234,6 +248,20 @@
     },
     {
       "source": "NAV",
+      "title": "Principal Agentic AI Expert",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/6d3bfe30-356f-4ac8-acb8-e2ef7d744ade",
+      "deadline": "2026-11-18",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-11"
+    },
+    {
+      "source": "NAV",
       "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
       "company": "NTNU - Norwegian University of Science and Technology",
       "location": "Ålesund",
@@ -316,6 +344,21 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
+      "title": "Har du lyst til å kombinere operativt arbeid med prosessforbedring, teknologi og AI?",
+      "company": "Formue",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/560a81d7-b86e-4616-9a14-df94f6e7a9c3",
+      "deadline": "2026-11-22",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-11"
     },
     {
       "source": "FINN",
@@ -1458,6 +1501,24 @@
         "Cloud Engineer"
       ],
       "first_seen": "2026-11-09"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Platform Engineer (AWS): Vil du bygge grunnmuren i NTBs skyreise?",
+      "company": "NTB",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/dee388dc-d80a-4dee-945a-64f7ae0a4639",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cloud Engineer",
+        "DevOps Engineer",
+        "Platform Engineer",
+        "Terraform"
+      ],
+      "first_seen": "2026-11-11"
     }
   ]
 }
