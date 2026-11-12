@@ -1,24 +1,6 @@
 {
-  "generated_at": "2026-11-11T14:59:26.541366+00:00",
+  "generated_at": "2026-11-12T15:51:54.341932+00:00",
   "postings": [
-    {
-      "source": "NAV",
-      "title": "Senior Platform Engineer",
-      "company": "Statkraft",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/90d66b66-2c7a-49d2-88fd-3403996b20ed",
-      "deadline": "2026-11-08",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "DevOps Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
     {
       "source": "NAV",
       "title": "Vil du være med og bygge fremtidens Hybrid Cloud-løsninger?",
@@ -32,6 +14,20 @@
         "Terraform"
       ],
       "first_seen": "2026-11-11"
+    },
+    {
+      "source": "NAV",
+      "title": "Cloud Engineer",
+      "company": "Lyse Tele AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ee9a11db-3619-40ba-b545-2f6bf4e17191",
+      "deadline": "2026-11-12",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-11-12"
     },
     {
       "source": "NAV",
@@ -560,6 +556,20 @@
         "AI Engineer"
       ],
       "first_seen": "2026-11-02"
+    },
+    {
+      "source": "NAV",
+      "title": "Senior Data Engineer",
+      "company": "Head Energy Consulting AS",
+      "location": "Stavanger",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/d9ca7d89-50f4-454c-b86d-d7c3c3447e38",
+      "deadline": "2026-12-21",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer"
+      ],
+      "first_seen": "2026-11-12"
     },
     {
       "source": "FINN",
