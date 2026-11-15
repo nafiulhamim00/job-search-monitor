@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T14:00:31.339821+00:00",
+  "generated_at": "2026-11-15T14:36:32.275261+00:00",
   "postings": [
     {
       "source": "NAV",
@@ -166,6 +166,21 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-11-04"
+    },
+    {
+      "source": "NAV",
+      "title": "We are looking for a Senior Analytics \\& AI Engineer",
+      "company": "TGS Prediktor AS",
+      "location": "Gamle Fredrikstad",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a2528f61-db45-4546-9836-881ec2b574f3",
+      "deadline": "2026-11-16",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-11-05"
     },
     {
       "source": "FINN",
@@ -586,21 +601,6 @@
         "Cloud Engineer"
       ],
       "first_seen": "2026-11-12"
-    },
-    {
-      "source": "NAV",
-      "title": "We are looking for a Senior Analytics \\& AI Engineer",
-      "company": "TGS Prediktor AS",
-      "location": "Gamle Fredrikstad",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a2528f61-db45-4546-9836-881ec2b574f3",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "DevOps Engineer"
-      ],
-      "first_seen": "2026-11-05"
     },
     {
       "source": "FINN",
