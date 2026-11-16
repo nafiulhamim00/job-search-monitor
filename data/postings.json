@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:36:32.275261+00:00",
+  "generated_at": "2026-11-16T16:50:51.407327+00:00",
   "postings": [
-    {
-      "source": "NAV",
-      "title": "Cloud Engineer",
-      "company": "Lyse Tele AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/ee9a11db-3619-40ba-b545-2f6bf4e17191",
-      "deadline": "2026-11-12",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer"
-      ],
-      "first_seen": "2026-11-12"
-    },
     {
       "source": "NAV",
       "title": "Senior Computer Vision & AI Engineer",
@@ -213,34 +199,6 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-11-06"
-    },
-    {
-      "source": "NAV",
-      "title": "Data Scientist - Agentic AI",
-      "company": "Equinor ASA",
-      "location": "Sandsli",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/2d67e6f8-479e-477e-bef4-7e0bc9004b07",
-      "deadline": "2026-11-18",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-11-10"
-    },
-    {
-      "source": "NAV",
-      "title": "Principal Agentic AI Expert",
-      "company": "Equinor ASA",
-      "location": "Sandsli",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/6d3bfe30-356f-4ac8-acb8-e2ef7d744ade",
-      "deadline": "2026-11-18",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-11-11"
     },
     {
       "source": "NAV",
@@ -444,6 +402,20 @@
     },
     {
       "source": "NAV",
+      "title": "Tech Lead/Lead AI Engineer",
+      "company": "BEWI Group Functions Norway",
+      "location": "Trondheim",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/e8b7a433-22d4-4ad6-ad47-33e278f24c98",
+      "deadline": "2026-11-29",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-16"
+    },
+    {
+      "source": "NAV",
       "title": "Senior Software Engineer – build autonomous AI workflows at Crunched",
       "company": "Crunched Tech AS",
       "location": "Oslo",
@@ -502,6 +474,21 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-11-13"
+    },
+    {
+      "source": "NAV",
+      "title": "Are you the Lead Architect to strengthen HMH's technical direction and software architecture of our SeaBridge platform",
+      "company": "HMH",
+      "location": "Kristiansand S",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cd95ed64-b784-4821-8da5-284288a14152",
+      "deadline": "2026-12-01",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-11-16"
     },
     {
       "source": "NAV",
@@ -601,6 +588,34 @@
         "Cloud Engineer"
       ],
       "first_seen": "2026-11-12"
+    },
+    {
+      "source": "NAV",
+      "title": "Data Scientist - Agentic AI",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/2d67e6f8-479e-477e-bef4-7e0bc9004b07",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-10"
+    },
+    {
+      "source": "NAV",
+      "title": "Principal Agentic AI Expert",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/6d3bfe30-356f-4ac8-acb8-e2ef7d744ade",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-11"
     },
     {
       "source": "FINN",
@@ -1564,8 +1579,8 @@
     {
       "source": "NAV",
       "title": "Platform Engineer – Core Automation",
-      "company": "Telenor Norge",
-      "location": "Fornebu",
+      "company": "Fornebu",
+      "location": "Trondheim",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/65af5209-d985-4055-bb4e-b6e6b5a65cd3",
       "deadline": null,
       "job_type": "Full-time",
