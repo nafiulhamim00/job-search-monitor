@@ -1,20 +1,6 @@
 {
-  "generated_at": "2026-11-16T16:50:51.407327+00:00",
+  "generated_at": "2026-11-17T16:46:26.123532+00:00",
   "postings": [
-    {
-      "source": "NAV",
-      "title": "Senior Computer Vision & AI Engineer",
-      "company": "Robotto Co ApS",
-      "location": "Danmark",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c68fcf30-26fc-4bde-ab69-04388edef9f9",
-      "deadline": "2026-11-13",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
     {
       "source": "FINN",
       "title": "Senior Cloud Architect",
@@ -202,17 +188,31 @@
     },
     {
       "source": "NAV",
-      "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
-      "company": "NTNU - Norwegian University of Science and Technology",
-      "location": "Ålesund",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b3495126-a761-44c2-856b-2c4b8294bca4",
-      "deadline": "2026-11-19",
-      "job_type": "Temporary",
+      "title": "Data Scientist - Agentic AI",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/2d67e6f8-479e-477e-bef4-7e0bc9004b07",
+      "deadline": "2026-11-18",
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
-        "Cybersecurity Engineer"
+        "AI Engineer"
       ],
-      "first_seen": "2026-10-19"
+      "first_seen": "2026-11-10"
+    },
+    {
+      "source": "NAV",
+      "title": "Principal Agentic AI Expert",
+      "company": "Equinor ASA",
+      "location": "Sandsli",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/6d3bfe30-356f-4ac8-acb8-e2ef7d744ade",
+      "deadline": "2026-11-18",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-11"
     },
     {
       "source": "FINN",
@@ -459,6 +459,20 @@
       "first_seen": "2026-11-02"
     },
     {
+      "source": "NAV",
+      "title": "Help shape the next generation of security",
+      "company": "Telenor ASA",
+      "location": "Fornebu",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/88194904-3484-4341-b5c8-598db7ba90b2",
+      "deadline": "2026-11-30",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-11-17"
+    },
+    {
       "source": "FINN",
       "title": "Lead Architect - Service & Cloud",
       "company": "HMH",
@@ -591,31 +605,17 @@
     },
     {
       "source": "NAV",
-      "title": "Data Scientist - Agentic AI",
-      "company": "Equinor ASA",
-      "location": "Sandsli",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/2d67e6f8-479e-477e-bef4-7e0bc9004b07",
+      "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
+      "company": "NTNU - Norwegian University of Science and Technology",
+      "location": "Ålesund",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b3495126-a761-44c2-856b-2c4b8294bca4",
       "deadline": null,
-      "job_type": "Full-time",
+      "job_type": "Temporary",
       "english_ok": true,
       "matched_keywords": [
-        "AI Engineer"
+        "Cybersecurity Engineer"
       ],
-      "first_seen": "2026-11-10"
-    },
-    {
-      "source": "NAV",
-      "title": "Principal Agentic AI Expert",
-      "company": "Equinor ASA",
-      "location": "Sandsli",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/6d3bfe30-356f-4ac8-acb8-e2ef7d744ade",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-11-11"
+      "first_seen": "2026-10-19"
     },
     {
       "source": "FINN",
@@ -1277,8 +1277,8 @@
     {
       "source": "NAV",
       "title": "Seniorutvikler – Java, DevOps og skyløsninger | Oslo, Trondheim Engineering AS",
-      "company": "Sogndal",
-      "location": "Oslo",
+      "company": "Vestland",
+      "location": "Sogndal",
       "url": "https://arbeidsplassen.nav.no/stillinger/stilling/7c2fdce9-4db4-4dbe-add1-e591d502198d",
       "deadline": null,
       "job_type": "Full-time",
@@ -1591,6 +1591,48 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-11-14"
+    },
+    {
+      "source": "FINN",
+      "title": "Agentic AI Engineer/Architect",
+      "company": "Sopra Steria",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/481200078",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-17"
+    },
+    {
+      "source": "FINN",
+      "title": "AI Consultant",
+      "company": "AW Academy i samarbeid med Accenture",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/481187784",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-17"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du bygge moderne dataprodukter for innsikt og AI i Storebrand Bank?",
+      "company": "Storebrand",
+      "location": "Lysaker",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/4a7eaab4-4333-4bd5-9c63-7dde1399557f",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-17"
     }
   ]
 }
