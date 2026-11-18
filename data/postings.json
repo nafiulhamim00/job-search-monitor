@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T16:46:26.123532+00:00",
+  "generated_at": "2026-11-18T16:18:04.966588+00:00",
   "postings": [
     {
       "source": "FINN",
@@ -77,20 +77,6 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-27"
-    },
-    {
-      "source": "NAV",
-      "title": "Help shape the future of Norway's leading cybersecurity company",
-      "company": "mnemonic AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/14302ea6-8106-4bed-9d24-3fbf1e20401d",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cybersecurity Engineer"
-      ],
-      "first_seen": "2026-10-29"
     },
     {
       "source": "NAV",
@@ -215,6 +201,20 @@
       "first_seen": "2026-11-11"
     },
     {
+      "source": "NAV",
+      "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
+      "company": "NTNU - Norwegian University of Science and Technology",
+      "location": "Ålesund",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b3495126-a761-44c2-856b-2c4b8294bca4",
+      "deadline": "2026-11-19",
+      "job_type": "Temporary",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-10-19"
+    },
+    {
       "source": "FINN",
       "title": "Data Engineer",
       "company": "StormGeo",
@@ -227,34 +227,6 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-22"
-    },
-    {
-      "source": "NAV",
-      "title": "Data Engineer",
-      "company": "StormGeo",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c853bda5-e501-42ab-af18-7f010791e8bf",
-      "deadline": "2026-11-20",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "NAV",
-      "title": "Vil du være spydspissen i utviklingen av en mer datadrevet, proaktiv og AI-støttet finansfunksjon?",
-      "company": "KONGSBERG",
-      "location": "Kongsberg",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/72ed3451-d7b5-41ad-a2ec-4891afd6b53e",
-      "deadline": "2026-11-20",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-11-05"
     },
     {
       "source": "NAV",
@@ -454,6 +426,7 @@
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
+        "Cloud Engineer",
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-11-02"
@@ -562,6 +535,20 @@
     },
     {
       "source": "FINN",
+      "title": "Energy Security Researcher - Cascading effects",
+      "company": "DNV",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/481254738",
+      "deadline": "2026-12-11",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-18"
+    },
+    {
+      "source": "FINN",
       "title": "Machine Learning Engieer",
       "company": "Kilter",
       "location": "Langhus",
@@ -605,17 +592,45 @@
     },
     {
       "source": "NAV",
-      "title": "PhD Candidate in Cybersecurity Challenges in Maritime AI",
-      "company": "NTNU - Norwegian University of Science and Technology",
-      "location": "Ålesund",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b3495126-a761-44c2-856b-2c4b8294bca4",
+      "title": "Help shape the future of Norway's leading cybersecurity company",
+      "company": "mnemonic AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/14302ea6-8106-4bed-9d24-3fbf1e20401d",
       "deadline": null,
-      "job_type": "Temporary",
+      "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Cybersecurity Engineer"
       ],
-      "first_seen": "2026-10-19"
+      "first_seen": "2026-10-29"
+    },
+    {
+      "source": "NAV",
+      "title": "Data Engineer",
+      "company": "StormGeo",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c853bda5-e501-42ab-af18-7f010791e8bf",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-23"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du være spydspissen i utviklingen av en mer datadrevet, proaktiv og AI-støttet finansfunksjon?",
+      "company": "KONGSBERG",
+      "location": "Kongsberg",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/72ed3451-d7b5-41ad-a2ec-4891afd6b53e",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-05"
     },
     {
       "source": "FINN",
@@ -1633,6 +1648,20 @@
         "AI Engineer"
       ],
       "first_seen": "2026-11-17"
+    },
+    {
+      "source": "NAV",
+      "title": "Erfaren Data Engineer søkes -- bli med og skape datadrevne virksomheter!",
+      "company": "BOUVET NORGE AS",
+      "location": "Kristiansand S",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/12186c0b-e711-4355-921f-3e92523a6c28",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "DevOps Engineer"
+      ],
+      "first_seen": "2026-11-18"
     }
   ]
 }
