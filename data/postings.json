@@ -1,113 +1,6 @@
 {
-  "generated_at": "2026-11-18T16:18:04.966588+00:00",
+  "generated_at": "2026-11-19T16:26:06.391231+00:00",
   "postings": [
-    {
-      "source": "FINN",
-      "title": "Senior Cloud Architect",
-      "company": "Advania Norge AS",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/479365733",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Terraform"
-      ],
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "FINN",
-      "title": "AI & Software Engineers",
-      "company": "Ignite",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/480114534",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-11-02"
-    },
-    {
-      "source": "FINN",
-      "title": "Product Security Engineer",
-      "company": "Vend",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/478009702",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Kubernetes",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-11-04"
-    },
-    {
-      "source": "FINN",
-      "title": "Analytics and Data Engineer",
-      "company": "Protector Forsikring Norge",
-      "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/479907167",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-11-06"
-    },
-    {
-      "source": "NAV",
-      "title": "Network \\& Security Engineer",
-      "company": "Kongsberg Maritime",
-      "location": "Kongsberg",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/3d417f65-f64a-408e-930b-5dbe51933ca6",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer",
-        "Cybersecurity Engineer"
-      ],
-      "first_seen": "2026-10-27"
-    },
-    {
-      "source": "NAV",
-      "title": "Analytics and Data Engineer",
-      "company": "Protector Forsikring Norge",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/1acdf550-55db-4dfa-bcaf-85bfd592224c",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer"
-      ],
-      "first_seen": "2026-11-03"
-    },
-    {
-      "source": "NAV",
-      "title": "Security Engineer, Core",
-      "company": "Vend",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/cae7e97e-7e23-40e6-be97-93732e85be5e",
-      "deadline": "2026-11-15",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-15"
-    },
     {
       "source": "FINN",
       "title": "Senior Analytics & AI Engineer",
@@ -215,18 +108,32 @@
       "first_seen": "2026-10-19"
     },
     {
-      "source": "FINN",
+      "source": "NAV",
       "title": "Data Engineer",
       "company": "StormGeo",
       "location": "Oslo",
-      "url": "https://www.finn.no/job/ad/479292347",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c853bda5-e501-42ab-af18-7f010791e8bf",
       "deadline": "2026-11-20",
       "job_type": "Full-time",
       "english_ok": true,
       "matched_keywords": [
         "Platform Engineer"
       ],
-      "first_seen": "2026-10-22"
+      "first_seen": "2026-10-23"
+    },
+    {
+      "source": "NAV",
+      "title": "Vil du være spydspissen i utviklingen av en mer datadrevet, proaktiv og AI-støttet finansfunksjon?",
+      "company": "KONGSBERG",
+      "location": "Kongsberg",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/72ed3451-d7b5-41ad-a2ec-4891afd6b53e",
+      "deadline": "2026-11-20",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-05"
     },
     {
       "source": "NAV",
@@ -473,7 +380,8 @@
       "english_ok": true,
       "matched_keywords": [
         "Cloud Engineer",
-        "Cybersecurity Engineer"
+        "Cybersecurity Engineer",
+        "DevOps Engineer"
       ],
       "first_seen": "2026-11-16"
     },
@@ -549,6 +457,21 @@
     },
     {
       "source": "FINN",
+      "title": "IT Infrastructure Engineer",
+      "company": "Øglænd System AS",
+      "location": "Klepp stasjon",
+      "url": "https://www.finn.no/job/ad/481319744",
+      "deadline": "2026-12-12",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-11-19"
+    },
+    {
+      "source": "FINN",
       "title": "Machine Learning Engieer",
       "company": "Kilter",
       "location": "Langhus",
@@ -591,6 +514,20 @@
       "first_seen": "2026-11-12"
     },
     {
+      "source": "FINN",
+      "title": "Data Engineer",
+      "company": "StormGeo",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/479292347",
+      "deadline": "2026-12-23",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-22"
+    },
+    {
       "source": "NAV",
       "title": "Help shape the future of Norway's leading cybersecurity company",
       "company": "mnemonic AS",
@@ -603,34 +540,6 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-10-29"
-    },
-    {
-      "source": "NAV",
-      "title": "Data Engineer",
-      "company": "StormGeo",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c853bda5-e501-42ab-af18-7f010791e8bf",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "NAV",
-      "title": "Vil du være spydspissen i utviklingen av en mer datadrevet, proaktiv og AI-støttet finansfunksjon?",
-      "company": "KONGSBERG",
-      "location": "Kongsberg",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/72ed3451-d7b5-41ad-a2ec-4891afd6b53e",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer"
-      ],
-      "first_seen": "2026-11-05"
     },
     {
       "source": "FINN",
