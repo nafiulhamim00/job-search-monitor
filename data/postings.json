@@ -1,38 +1,6 @@
 {
-  "generated_at": "2026-11-19T16:26:06.391231+00:00",
+  "generated_at": "2026-11-20T15:58:52.092518+00:00",
   "postings": [
-    {
-      "source": "FINN",
-      "title": "Senior Analytics & AI Engineer",
-      "company": "TGS Prediktor AS",
-      "location": "Gamle Fredrikstad",
-      "url": "https://www.finn.no/job/ad/480221448",
-      "deadline": "2026-11-16",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Cloud Engineer",
-        "DevOps Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-11-04"
-    },
-    {
-      "source": "NAV",
-      "title": "We are looking for a Senior Analytics \\& AI Engineer",
-      "company": "TGS Prediktor AS",
-      "location": "Gamle Fredrikstad",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/a2528f61-db45-4546-9836-881ec2b574f3",
-      "deadline": "2026-11-16",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "DevOps Engineer"
-      ],
-      "first_seen": "2026-11-05"
-    },
     {
       "source": "FINN",
       "title": "Principal Agentic AI Expert",
@@ -109,20 +77,6 @@
     },
     {
       "source": "NAV",
-      "title": "Data Engineer",
-      "company": "StormGeo",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c853bda5-e501-42ab-af18-7f010791e8bf",
-      "deadline": "2026-11-20",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "NAV",
       "title": "Vil du være spydspissen i utviklingen av en mer datadrevet, proaktiv og AI-støttet finansfunksjon?",
       "company": "KONGSBERG",
       "location": "Kongsberg",
@@ -148,36 +102,6 @@
         "Cloud Engineer"
       ],
       "first_seen": "2026-10-27"
-    },
-    {
-      "source": "NAV",
-      "title": "Drive Data Platform Innovation at Statkraft",
-      "company": "Statkraft AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b14570f1-6a6f-4cef-8e2b-52ab8cf03d21",
-      "deadline": "2026-11-22",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-27"
-    },
-    {
-      "source": "NAV",
-      "title": "Har du lyst til å kombinere operativt arbeid med prosessforbedring, teknologi og AI?",
-      "company": "Formue",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/560a81d7-b86e-4616-9a14-df94f6e7a9c3",
-      "deadline": "2026-11-22",
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-11-11"
     },
     {
       "source": "FINN",
@@ -235,6 +159,22 @@
         "Kubernetes"
       ],
       "first_seen": "2026-11-04"
+    },
+    {
+      "source": "FINN",
+      "title": "Product Security Engineer",
+      "company": "Vend",
+      "location": "Oslo",
+      "url": "https://www.finn.no/job/ad/481384961",
+      "deadline": "2026-11-26",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Kubernetes",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-20"
     },
     {
       "source": "NAV",
@@ -442,6 +382,22 @@
       "first_seen": "2026-11-03"
     },
     {
+      "source": "NAV",
+      "title": "Senior Engineer -- Platform, DevOps and AI agents, Avonova Helse AS",
+      "company": "Avonova Solutions",
+      "location": "Larvik",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/460557e1-a784-4e59-9398-32a2a839dc32",
+      "deadline": "2026-12-10",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "DevOps Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-20"
+    },
+    {
       "source": "FINN",
       "title": "Energy Security Researcher - Cascading effects",
       "company": "DNV",
@@ -469,6 +425,20 @@
         "Cybersecurity Engineer"
       ],
       "first_seen": "2026-11-19"
+    },
+    {
+      "source": "NAV",
+      "title": "Take a key role at the intersection of global IT, security and industry",
+      "company": "Øglænd System AS",
+      "location": "Klepp Stasjon",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/63229a5a-8b3b-482f-8163-d611a87c121c",
+      "deadline": "2026-12-12",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cybersecurity Engineer"
+      ],
+      "first_seen": "2026-11-20"
     },
     {
       "source": "FINN",
@@ -514,6 +484,20 @@
       "first_seen": "2026-11-12"
     },
     {
+      "source": "NAV",
+      "title": "Data Engineer",
+      "company": "StormGeo",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/c853bda5-e501-42ab-af18-7f010791e8bf",
+      "deadline": "2026-12-23",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-23"
+    },
+    {
       "source": "FINN",
       "title": "Data Engineer",
       "company": "StormGeo",
@@ -526,6 +510,36 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-22"
+    },
+    {
+      "source": "NAV",
+      "title": "Drive Data Platform Innovation at Statkraft",
+      "company": "Statkraft AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b14570f1-6a6f-4cef-8e2b-52ab8cf03d21",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
+      "title": "Har du lyst til å kombinere operativt arbeid med prosessforbedring, teknologi og AI?",
+      "company": "Formue",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/560a81d7-b86e-4616-9a14-df94f6e7a9c3",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-11"
     },
     {
       "source": "NAV",
@@ -1571,6 +1585,20 @@
         "DevOps Engineer"
       ],
       "first_seen": "2026-11-18"
+    },
+    {
+      "source": "NAV",
+      "title": "Bli med og utvikle agentisk AI i praksis",
+      "company": "Sopra Steria",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/0a576a7d-2488-4f71-b1c4-964034a1f9a7",
+      "deadline": null,
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer"
+      ],
+      "first_seen": "2026-11-20"
     }
   ]
 }
