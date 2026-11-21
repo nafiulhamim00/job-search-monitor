@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T15:58:52.092518+00:00",
+  "generated_at": "2026-11-21T15:11:07.991454+00:00",
   "postings": [
     {
       "source": "FINN",
@@ -102,6 +102,36 @@
         "Cloud Engineer"
       ],
       "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
+      "title": "Drive Data Platform Innovation at Statkraft",
+      "company": "Statkraft AS",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b14570f1-6a6f-4cef-8e2b-52ab8cf03d21",
+      "deadline": "2026-11-22",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "Cloud Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "NAV",
+      "title": "Har du lyst til å kombinere operativt arbeid med prosessforbedring, teknologi og AI?",
+      "company": "Formue",
+      "location": "Oslo",
+      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/560a81d7-b86e-4616-9a14-df94f6e7a9c3",
+      "deadline": "2026-11-22",
+      "job_type": "Full-time",
+      "english_ok": true,
+      "matched_keywords": [
+        "AI Engineer",
+        "Platform Engineer"
+      ],
+      "first_seen": "2026-11-11"
     },
     {
       "source": "FINN",
@@ -510,36 +540,6 @@
         "Platform Engineer"
       ],
       "first_seen": "2026-10-22"
-    },
-    {
-      "source": "NAV",
-      "title": "Drive Data Platform Innovation at Statkraft",
-      "company": "Statkraft AS",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/b14570f1-6a6f-4cef-8e2b-52ab8cf03d21",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "Cloud Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-10-27"
-    },
-    {
-      "source": "NAV",
-      "title": "Har du lyst til å kombinere operativt arbeid med prosessforbedring, teknologi og AI?",
-      "company": "Formue",
-      "location": "Oslo",
-      "url": "https://arbeidsplassen.nav.no/stillinger/stilling/560a81d7-b86e-4616-9a14-df94f6e7a9c3",
-      "deadline": null,
-      "job_type": "Full-time",
-      "english_ok": true,
-      "matched_keywords": [
-        "AI Engineer",
-        "Platform Engineer"
-      ],
-      "first_seen": "2026-11-11"
     },
     {
       "source": "NAV",
